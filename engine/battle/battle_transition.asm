@@ -650,7 +650,28 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	jr .nextscene
 
 .cgb
+	ld hl, .plasmapals
+	ld a, [wOtherTrainerClass]
+	cp GRUNTM
+	jr z, .load_plasma_pals
+	cp GRUNTF
+	jr z, .load_plasma_pals
+	cp GIALLO
+	jr z, .load_plasma_pals
+	cp BRONIUS
+	jr z, .load_plasma_pals
+	cp RYOKU
+	jr z, .load_plasma_pals
+	cp GORM
+	jr z, .load_plasma_pals
+	cp ZINZOLIN
+	jr z, .load_plasma_pals
+	cp INFER_SAGE
+	jr z, .load_plasma_pals
+	cp GENESIS
+	jr z, .load_plasma_pals	
 	ld hl, .daypals
+.load_plasma_pals
 	ld a, [wTimeOfDayPal]
 	maskbits NUM_DAYTIMES
 	cp DARKNESS_F
@@ -706,6 +727,9 @@ INCLUDE "gfx/overworld/trainer_battle_day.pal"
 
 .nightpals
 INCLUDE "gfx/overworld/trainer_battle_nite.pal"
+
+.plasmapals:
+INCLUDE "gfx/overworld/plasma_battle.pal"
 
 .loadpokeballgfx
 	ld de, PlasmaTransition
@@ -784,20 +808,20 @@ PlasmaTransition:
 pusho
 opt b.X ; . = 0, X = 1
 	bigdw %XXXXXXXXXXXXXXXX
-	bigdw %X......XXXX....X
-	bigdw %X......X...X...X
-	bigdw %X......X....X..X
+	bigdw %X....XXXXXX....X
+	bigdw %X.....XX..XX...X
+	bigdw %X.....XX...XX..X
 	bigdw %XXXXXXXXXXXXXXXX
-	bigdw %X.XX...X....X..X
-	bigdw %.X..X..X...X..X.
+	bigdw %XX.X..XX...XX.XX
+	bigdw %.X..X.XX..XX..X.
 	bigdw %.X...XXXXXX...X.
-	bigdw %.X.....X......X.
-	bigdw %..X...XXXX...X..
-	bigdw %..X..X.XX.X..X..
+	bigdw %.XX...XXX....XX.
+	bigdw %..X...XX.X...X..
+	bigdw %..XX.XXX..X.XX..
 	bigdw %...XXXXXXXXXX...
-	bigdw %....X..X...X....
-	bigdw %.....X.X..X.....
-	bigdw %......XX.X......
+	bigdw %....XXXX..XX....
+	bigdw %.....XXX.XX.....
+	bigdw %......XXXX......
 	bigdw %.......XX.......
 popo
 
