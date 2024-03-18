@@ -261,14 +261,14 @@ HumilauCitySignText:
 	done
 	
 HumilauMarlonSignText:
-	text "MARLON's house."
+	text "MARLON's HOUSE"
 	done
 	
 HumilauMarineTubeSignText:
 	text "MARINE TUBE"
 
 	para "Undersea passage"
-	line "to UNDELLA TOWN."
+	line "to UNDELLA TOWN"
 	done
 	
 HumilauCity_MapEvents:
