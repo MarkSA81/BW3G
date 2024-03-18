@@ -268,14 +268,11 @@ WhatDayIsItText:
 	
 	para "Hold on… Today's"
 	line "date isn't set."
-	
-	para "What day"
-	line "is it today?"
 	done
 	
 IsItDSTText:
-	text "How about Daylight"
-	line "Savings Time?"
+	text "Is it Daylight"
+	line "Savings Time now?"
 	done
 
 MomGivesXtranText:

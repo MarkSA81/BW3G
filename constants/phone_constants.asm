@@ -69,4 +69,4 @@
 PHONE_TABLE_WIDTH EQU const_value
 
 ; maximum number of pokegear contacts
-CONTACT_LIST_SIZE EQU 15
+CONTACT_LIST_SIZE EQU 10
