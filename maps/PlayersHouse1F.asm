@@ -250,41 +250,48 @@ MarlonLookingForYouText:
 	line "go out, make sure"
 	
 	para "you take your"
-	line "XTRANSCIEVER with"
-	cont "you."
+	line "XTRANSCIEVER."
 	done
 
 WhatDayIsItText:
 	text "You can use the"
 	line "XTRANSCIEVER to"
-
-	para "check the time,"
-	line "and to make phone"
-	cont "calls."
+	cont "make phone calls."
 	
-	para "Hold on… Remind"
-	line "me, what day is"
-	cont "it today?"
+	para "You can find it"
+	line "in the C-GEAR"
+	cont "menu."
+	
+	para "The C-GEAR also"
+	line "shows the date"
+	cont "and time."
+	
+	para "Hold on… Today's"
+	line "date isn't set."
+	
+	para "What day"
+	line "is it today?"
 	done
 	
 IsItDSTText:
-	text "Is it Daylight"
-	line "Saving Time now?"
+	text "How about Daylight"
+	line "Savings Time?"
 	done
 
 MomGivesXtranText:
-	text "Remember, you can"
-	line "adjust your clock"
+	text "Oh, so you can"
+	line "adjust the clock"
 
 	para "for Daylight"
 	line "Saving Time in the"
-	cont "XTRANSCIEVER menu."
+	cont "C-GEAR menu!"
 	
-	para "Now hurry on over"
-	line "to MARLON's house"
+	para "OK! Now you need"	
+	line "to hurry on over"
+	cont "to MARLON's house"
 
 	para "and see what he"
-	line "needs from you!"
+	line "wants you for!"
 	done
 
 MarlonIsWaitingText:
@@ -343,10 +350,10 @@ SoWhatWasMarlonsErrandText:
 
 	para "That's just like"
 	line "him to wander off"
+	cont "somewhere"
 	
-	para "somewhere, you'd"
-	line "better go find"
-	cont "him!"
+	para "You'd better go"
+	line "and find him."
 	done
 
 MomHappinessIntroText:
@@ -371,7 +378,7 @@ MomRefusedHappinessText:
 	cont "have fun."
 	
 	para "You got this,"
-	line "baby!"
+	line "sweetheart!"
 	done
 	
 MomHappinessText2:
@@ -424,7 +431,7 @@ MomHappinessOutroText:
 	cont "travels, <PLAY_G>."
 	
 	para "You got this,"
-	line "baby!"
+	line "sweetheart!"
 	done
 
 NeighborMornIntroText:
@@ -445,7 +452,7 @@ NeighborDayIntroText:
 	line "have a date at"
 	
 	para "the MARINE TUBE"
-	line "later today!"
+	line "soon. I'm excited!"
 	done
 
 NeighborNiteIntroText:
@@ -463,7 +470,7 @@ NeighborText:
 	text "Oh, and have you"
 	line "heard?"
 
-	para "My daughter is"
+	para "Your mom is"
 	line "adamant about"
 
 	para "becoming MARLON's"
@@ -476,7 +483,7 @@ NeighborText:
 StoveText:
 	text "Mom's specialty!"
 
-	para "VOLCANO"
+	para "REVERSAL VOLCANO"
 	line "BAKE MEAT!"
 	done
 
@@ -491,7 +498,7 @@ FridgeText:
 	line "in the fridge…"
 
 	para "FRESH WATER and"
-	line "tasty LEMONADE!"
+	line "CASTELIACONEs!"
 	done
 
 TVText:
@@ -499,7 +506,8 @@ TVText:
 	line "TV: Stars dot the"
 
 	para "sky as two boys"
-	line "ride on a train…"
+	line "ride on a train"
+	cont "to ANVILLE TOWN…"
 
 	para "I'd better get"
 	line "rolling too!"
