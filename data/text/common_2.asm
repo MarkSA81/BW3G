@@ -1509,27 +1509,25 @@ _OakText0::
 _OakText1::
 	text "… … … …"
 
-	para "Hm…?"
-
 	para "Oh! You must be"
 	line "the new trainer"
 	cont "I was asked about!"
-
-	para "I'm the new #-"
-	line "MON PROF. here in"
-	cont "the UNOVA region."
 	
-	para "My name is PROF."
-	line "BEL."
+	para "You're ex-act-ly"
+	line "like what I heard!"
 	
-	para "But that's way too"
-	line "formal! You can"
-	cont "just call me PROF."
-	cont "BIANCA!"
+	para "Oh, wait, no."
+	line "One moment!"
 	prompt
 
 _OakText2::
-	text "Hi there!"
+	text "That's better!"
+	line "Hey there!"
+	cont "My name is BIANCA!"
+	
+	para "Um… Oh, I suppose"
+	line "I should say"
+	cont "PROF.BIANCA!"
 
 	para "Welcome to the"
 	line "world of #MON!"
@@ -1540,47 +1538,39 @@ _OakText2::
 	prompt
 
 _OakText3::
-	text "That's right! This"
-	line "world is widely"
-	cont "inhabited by"
+	text "Here in our world"
+	line "there are sooo"
+	cont "many kinds of"
 	
-	para "mysterious"
-	line "creatures called"
-	cont "#MON!@"
+	para "these creatures"
+	line "called #MON!@"
 	text_end
 
 _OakText4::
-	text "#MON have"
-	line "mysterious powers."
-
-	para "They come in many"
-	line "shapes and live in"
+	text "They come in all"
+	line "shapes and sizes,"
+	cont "from all over!"
 	
-	para "many different"
-	line "places."
-
-	para "We humans live"
-	line "happily with #-"
-	cont "MON! Living and"
+	para "#MON can do"
+	line "heaps of stuff!"
 	
-	para "working together,"
-	line "we complement"
-	cont "each other!"
+	para"People and #MON"
+	line "share our lives"
+	cont "together, too."
 	
-	para "Having #MON"
-	line "battles is super"
-	cont "popular and fun,"
+	para "#MON battles"
+	line "are the best way"
+	cont "to bond with"
+	cont "one another!"
 	
-	para "and it's a great"
-	line "way for people and"
-	cont "#MON to become"
-	cont "closer!"
+	para "Plus, they're"
+	line "super fun!"
 	prompt
 
 _OakText5::
-	text "Well, that's"
-	line "enough from me…"
+	text "Um… that's"
+	line "enough from me."
 
-	para "Could you tell me"
-	line "about yourself?"
+	para "So! Tell me"
+	line "about yourself!"
 	prompt

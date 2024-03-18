@@ -1,15 +1,15 @@
 _OakText6::
-	text "I'd like to know"
-	line "your name. Please"
-	cont "tell me?"
+	text "Ah! So sorry,"
+	line "I forgot to ask!"
+	cont "What's your name?"
 	prompt
 
 _OakText7::
 	text "So your name's"
 	line "<PLAY_G>?"
 	
-	para "What a wonderful"
-	line "name!"
+	para "Wooow! That's a"
+	line "great name!"
 
 	para "I've been told you"
 	line "would make a great"
@@ -17,39 +17,27 @@ _OakText7::
 	cont "so I'm going to"
 	
 	para "send you a #-"
-	line "MON! I'm sure you"
-	cont "will be great"
-	cont "partners!"
+	line "MON! How exciting!"
 
-	para "The moment you"
-	line "choose the #MON"
+	para "Once you choose"
+	line "your partner,"
+	
+	para "your journey will"
+	line "truly begin!"
 
-	para "who will accompany"
-	line "you on your"
+	para "So, get out there"
+	line "and learn all"
 	
-	para "journey, your"
-	line "story will truly"
-	cont "begin!"
+	para "sorts of brand"
+	line "new things on"
+	cont "your travels!"
+	
+	para "Don't forget to"
+	line "say hi when we"
+	cont "finally meet in"
+	cont "person!"
 
-	para "I really hope you"
-	line "learn what is"
-	
-	para "important to you"
-	line "as a result of"
-	cont "your travels…"
-	
-	para "That's right!"
-	line "Befriend new"
-	cont "people and #MON"
-	
-	para "and grow as a"
-	line "person! That's the"
-	
-	para "most important"
-	line "goal of your"
-	cont "journey!"
-
-	para "Let's go visit the"
+	para "OK! Off to the"
 	line "world of #MON!"
 	done
 
