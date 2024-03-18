@@ -571,12 +571,13 @@ PwtBackRoomArriveText:
 	line "MON LEAGUE CHAMP,"
 	cont "IRIS!"
 	
-	para "UNOVA's own #MON"
-	line "PROF, BIANCA BEL!"
+	para "UNOVA's newest"
+	line "#MON professor,"
+	line "PROF.BIANCA!"
 	
 	para "And her former"
 	line "mentor, PROF."
-	cont "JUNIPER!"
+	cont "AUREA JUNIPER!"
 	
 	para "We've also got a"
 	line "handful of new-"
@@ -588,8 +589,8 @@ PwtBackRoomArriveText:
 	para "#MON trainer"
 	line "<PLAY_G>!"
 	
-	para "And MYSTERYMAN"
-	line "VIO!"
+	para "And the mysterious"
+	line "hooded man, VIO!"
 	
 	para "Alright, let's get"
 	line "on to it."

@@ -46,7 +46,7 @@ NuvemaTownTeacherText:
 	done
 	
 NuvemaTownSignText:
-	text "NUVEMA TOWN."
+	text "NUVEMA TOWN"
 	
 	para "The start of"
 	line "something big!"
@@ -54,10 +54,10 @@ NuvemaTownSignText:
 	
 NuvemaLabSignText:
 	text "NUVEMA #MON"
-	line "LAB."
+	line "LAB"
 	
-	para "PROF. BIANCA BEL"
-	line "presiding."
+	para "PROF. BIANCA"
+	line "now presiding."
 	done
 
 NuvemaTown_MapEvents:

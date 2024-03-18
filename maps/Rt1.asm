@@ -252,14 +252,13 @@ PkmnRangerFR1AfterText:
 	text "I came all the way"
 	line "here to hear PROF."
 
-	para "BEL talk! She used"
-	line "to be a #MON"
+	para "BIANCA talk! She"
+	line "used to be a "
+	cont "#MON trainer,"
 
-	para "trainer too, so I"
-	line "bet we'd have a"
-
-	para "great time"
-	line "swapping tales!"
+	para "so I bet we'd"
+	line "have a great time"
+	cont "swapping tales!"
 	done
 	
 MaidR1SeenText:
@@ -339,7 +338,7 @@ TwinsR1AfterText:
 	done
 	
 R1SignText:
-	text "ROUTE 1."
+	text "ROUTE 1"
 	
 	para "North to ACCUMULA"
 	line "TOWN, south to"
