@@ -332,8 +332,8 @@ GameCornerPharmacistText:
 	done
 
 GameCornerMusicianText:
-	text "I just love this"
-	line "new slot machine."
+	text "I just love the"
+	line "LUCKY-V slots!"
 	done
 
 GameCornerRoughneckText:

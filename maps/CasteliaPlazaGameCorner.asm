@@ -117,7 +117,7 @@ CasteliaPlazaGameCornerCardFlipMachineScript:
 	
 CasteliaPlazaGameCornerSignText:
 	text "CASTELIA PLAZA"
-	line "GAME CORNER."
+	line "GAME CORNER"
 
 	para "Earn coins to win"
 	line "fabulous prizes!"
@@ -135,7 +135,7 @@ CasteliaPlazaGameCornerReceptionistText:
 
 CasteliaPlazaGameCornerTeacherText:
 	text "It's this machine"
-	line "I want."
+	line "that I want."
 
 	para "It cleaned me out"
 	line "yesterday, so it"
@@ -148,7 +148,7 @@ CasteliaPlazaGameCornerPokefanMText:
 	text "Hmmm… The odds are"
 	line "surely better for"
 
-	para "PIKACHU's line,"
+	para "EMOLGA's line,"
 	line "but… What to do?"
 	done
 

@@ -29,8 +29,7 @@ CasteliaPlazaLobbyElevatorButton:
 
 CasteliaPlazaLobbyReceptionist1Text:
 	text "Welcome to"
-	line "CASTELIA GAME"
-	cont "PLAZA!"
+	line "CASTELIA PLAZA!"
 	
 	para "You can play games"
 	line "upstairs and win"
@@ -42,14 +41,14 @@ CasteliaPlazaLobbyReceptionist2Text:
 	line "travel, make sure"
 	
 	para "you also visit our"
-	line "sister store in"
+	line "sister branch in"
 	cont "VIRBANK CITY!"
 	done
 
 CasteliaPlazaLobbyCooltrainerMText:
 	text "I'm raring to go"
-	line "play the slots"
-	cont "again today!"
+	line "play the LUCKY-V"
+	cont "slots again today!"
 	
 	para "It's going to be a"
 	line "good day, I can"
@@ -70,8 +69,7 @@ CasteliaPlazaLobbyTeacherText:
 	done
 
 CasteliaPlazaLobbySignText:
-	text "CASTELIA GAME"
-	line "PLAZA."
+	text "CASTELIA PLAZA"
 	
 	para "2F - GAME CORNER"
 	line "3F - PRIZE ROOM"
