@@ -379,6 +379,8 @@ HeartScaleDesc:
 CalciumDesc:
 	db   "Ups SPECIAL stats"
 	next "of one #MON.@"
+	; db   "Raises SP.ATK of"
+	; next "one #MON.@"
 
 RareCandyDesc:
 	db   "Raises level of a"
