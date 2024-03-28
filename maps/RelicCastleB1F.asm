@@ -21,8 +21,8 @@ TrainerPsychicFRelicCastleB1F:
 RelicCastleMaxPotion:
 	itemball MAX_POTION
 	
-RelicCastleElixer:
-	hiddenitem ELIXER, EVENT_RELIC_CASTLE_ELIXER
+RelicCastleElixir:
+	hiddenitem ELIXIR, EVENT_RELIC_CASTLE_ELIXIR
 	
 PsychicFRelicCastleB1FSeenText:
 	text "My psychic type"
@@ -65,7 +65,7 @@ RelicCastleB1F_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 14, 10, BGEVENT_ITEM, RelicCastleElixer
+	bg_event 14, 10, BGEVENT_ITEM, RelicCastleElixir
 
 	db 2 ; object events
 	object_event  2,  6, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, RelicCastleMaxPotion, EVENT_RELIC_CASTLE_MAX_POTION

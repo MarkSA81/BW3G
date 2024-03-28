@@ -53,8 +53,8 @@ ChargestoneRareCandy:
 ChargestoneTMWildCharge:
 	itemball TM_WILD_CHARGE
 	
-ChargestoneElixer:
-	hiddenitem ELIXER, EVENT_CHARGESTONE_ELIXER
+ChargestoneElixir:
+	hiddenitem ELIXIR, EVENT_CHARGESTONE_ELIXIR
 	
 Guitarist2ChargestoneSeenText:
 	text "Here I go!"
@@ -140,7 +140,7 @@ ChargestoneCaveB2F_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event  3, 19, BGEVENT_ITEM, ChargestoneElixer
+	bg_event  3, 19, BGEVENT_ITEM, ChargestoneElixir
 
 	db 6 ; object events
 	object_event  2, 17, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, ChargestoneRevive, EVENT_CHARGESTONE_REVIVE

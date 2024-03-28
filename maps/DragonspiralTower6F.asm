@@ -1,5 +1,5 @@
 	const_def 2 ; object constants
-	const DRAGONSPIRALTOWER6F_MAX_ELIXER
+	const DRAGONSPIRALTOWER6F_MAX_ELIXIR
 	const DRAGONSPIRALTOWER6F_INFER
 
 DragonspiralTower6F_MapScripts:
@@ -92,8 +92,8 @@ DragonspiralTowerInferScript2:
 	setscene SCENE_FINISHED
 	end
 	
-DragonspiralMaxElixer:
-	itemball MAX_ELIXER
+DragonspiralMaxElixir:
+	itemball MAX_ELIXIR
 	
 DragonspiralRedShard:
 	hiddenitem RED_SHARD, EVENT_DRAGONSPIRAL_RED_SHARD
@@ -279,6 +279,6 @@ DragonspiralTower6F_MapEvents:
 	bg_event 15,  6, BGEVENT_ITEM, DragonspiralGreenShard
 	
 	db 2 ; object events
-	object_event 12,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonspiralMaxElixer, EVENT_DRAGONSPIRAL_MAX_ELIXER
+	object_event 12,  3, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonspiralMaxElixir, EVENT_DRAGONSPIRAL_MAX_ELIXIR
 	object_event  3,  8, SPRITE_INFER_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, 0, EVENT_DRAGONSPIRAL_TOWER_6F_INFER
 	

@@ -204,8 +204,8 @@ VictoryRoadCave1FRareCandy:
 VictoryRoadCave1FLifeOrb:
 	itemball LIFE_ORB
 	
-VictoryRoadCave1FMaxElixer:
-	hiddenitem MAX_ELIXER, EVENT_VICTORY_ROAD_INT_MAX_ELIXER
+VictoryRoadCave1FMaxElixir:
+	hiddenitem MAX_ELIXIR, EVENT_VICTORY_ROAD_INT_MAX_ELIXIR
 	
 VictoryRoadCave1FBoulderFellText:
 	text "The boulder fell"
@@ -431,7 +431,7 @@ VictoryRoadCave1F_MapEvents:
 	coord_event  6, 10, SCENE_DEFAULT, VictoryRoadCave1FUpperScript
 
 	db 1 ; bg events
-	bg_event 10, 35, BGEVENT_ITEM, VictoryRoadCave1FMaxElixer
+	bg_event 10, 35, BGEVENT_ITEM, VictoryRoadCave1FMaxElixir
 
 	db 14 ; object events
 	object_event 13, 23, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VictoryRoadCave1FBoulder, EVENT_VICTORY_ROAD_RUINS_BOULDER_1

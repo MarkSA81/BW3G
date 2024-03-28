@@ -78,8 +78,8 @@ MistraltonCave3FGreenShard:
 MistraltonCave3FYellowShard:
 	itemball YELLOW_SHARD
 	
-MistraltonCave3FElixer:
-	hiddenitem ELIXER, EVENT_MISTRALTON_CAVE_ELIXER
+MistraltonCave3FElixir:
+	hiddenitem ELIXIR, EVENT_MISTRALTON_CAVE_ELIXIR
 	
 MistraltonCave3FUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_MISTRALTON_CAVE_ULTRA_BALL
@@ -103,7 +103,7 @@ MistraltonCave3F_MapEvents:
 	db 0 ; coord events
 
 	db 2 ; bg events
-	bg_event  6, 10, BGEVENT_ITEM, MistraltonCave3FElixer
+	bg_event  6, 10, BGEVENT_ITEM, MistraltonCave3FElixir
 	bg_event  3, 21, BGEVENT_ITEM, MistraltonCave3FUltraBall
 	
 	db 7 ; object events

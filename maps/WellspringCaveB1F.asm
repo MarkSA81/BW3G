@@ -53,8 +53,8 @@ WellspringCaveB1FCarbos:
 WellspringCaveB1FMaxPotion:
 	itemball MAX_POTION
 	
-WellspringCaveB1FMaxElixer:
-	hiddenitem MAX_ELIXER, EVENT_WELLSPRING_CAVE_MAX_ELIXER
+WellspringCaveB1FMaxElixir:
+	hiddenitem MAX_ELIXIR, EVENT_WELLSPRING_CAVE_MAX_ELIXIR
 	
 WellspringCaveB1FMaxRevive:
 	hiddenitem MAX_REVIVE, EVENT_WELLSPRING_CAVE_MAX_REVIVE
@@ -141,7 +141,7 @@ WellspringCaveB1F_MapEvents:
 	db 0 ; coord events
 
 	db 2 ; bg events
-	bg_event  9, 29, BGEVENT_ITEM, WellspringCaveB1FMaxElixer
+	bg_event  9, 29, BGEVENT_ITEM, WellspringCaveB1FMaxElixir
 	bg_event 15,  3, BGEVENT_ITEM, WellspringCaveB1FMaxRevive
 	
 	db 6 ; object events

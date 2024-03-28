@@ -133,8 +133,8 @@ ReversalMountainDuskBall:
 ReversalMountainBlueShard:
 	itemball BLUE_SHARD
 	
-ReversalMountainElixer:
-	hiddenitem ELIXER, EVENT_REVERSAL_MOUNTAIN_ELIXER
+ReversalMountainElixir:
+	hiddenitem ELIXIR, EVENT_REVERSAL_MOUNTAIN_ELIXIR
 	
 ReversalGruntMovement:
 	step RIGHT
@@ -319,7 +319,7 @@ ReversalMountain1F_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 22, 20, BGEVENT_ITEM, ReversalMountainElixer
+	bg_event 22, 20, BGEVENT_ITEM, ReversalMountainElixir
 
 	db 12 ; object events
 	object_event 32,  7, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, ReversalMountainXDefend, EVENT_REVERSAL_MOUNTAIN_X_DEFEND

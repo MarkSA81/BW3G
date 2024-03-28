@@ -86,8 +86,8 @@ MistraltonCityHeavyBall:
 MistraltonCityMaxRepel:
 	itemball MAX_REPEL
 	
-MistraltonCityElixer:
-	hiddenitem ELIXER, EVENT_MISTRALTON_CITY_ELIXER
+MistraltonCityElixir:
+	hiddenitem ELIXIR, EVENT_MISTRALTON_CITY_ELIXIR
 
 MistraltonCitySign:
 	jumptext MistraltonCitySignText
@@ -214,7 +214,7 @@ MistraltonCity_MapEvents:
 	db 3 ; bg events
 	bg_event 21,  9, BGEVENT_READ, MistraltonCitySign
 	bg_event 11,  9, BGEVENT_READ, MistraltonAirportSign
-	bg_event  8, 28, BGEVENT_ITEM, MistraltonCityElixer
+	bg_event  8, 28, BGEVENT_ITEM, MistraltonCityElixir
 
 	db 9 ; object events
 	object_event  5,  6, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 3, 3, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, MistraltonCityGymGuyScript, EVENT_SKYLA_RETURNED

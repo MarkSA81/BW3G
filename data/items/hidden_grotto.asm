@@ -32,7 +32,7 @@ HiddenGrottoItemsTier2:
 	db CARBOS
 	db CALCIUM
 	db HP_UP
-	db ELIXER
+	db ELIXIR
 	
 HiddenGrottoItemsTier3:
 	db DAMP_ROCK
@@ -48,7 +48,7 @@ HiddenGrottoItemsTier3:
 	db CARBOS
 	db CALCIUM
 	db PP_UP
-	db MAX_ELIXER
+	db MAX_ELIXIR
 	db MAX_REVIVE
 	db RARE_CANDY
 	

@@ -1,6 +1,6 @@
 	const_def 2 ; object constants
 	const DRAGONSPIRALTOWER2F_BOULDER
-	const DRAGONSPIRALTOWER2F_ELIXER
+	const DRAGONSPIRALTOWER2F_ELIXIR
 	const DRAGONSPIRALTOWER2F_FULL_RESTORE
 	const DRAGONSPIRALTOWER2F_GIALLO
 
@@ -98,8 +98,8 @@ TrainerDragonspiralTowerGiallo:
 DragonspiralBoulder:
 	jumpstd strengthboulder
 	
-DragonspiralElixer:
-	itemball ELIXER
+DragonspiralElixir:
+	itemball ELIXIR
 	
 DragonspiralFullRestore:
 	itemball FULL_RESTORE
@@ -154,7 +154,7 @@ DragonspiralTower2F_MapEvents:
 	
 	db 4 ; object events
 	object_event  6, 10, SPRITE_BOULDER, SPRITEMOVEDATA_STRENGTH_BOULDER, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DragonspiralBoulder, EVENT_DRAGONSPIRAL_TOWER_2F_BOULDER
-	object_event 10, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonspiralElixer, EVENT_DRAGONSPIRAL_ELIXER
+	object_event 10, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonspiralElixir, EVENT_DRAGONSPIRAL_ELIXIR
 	object_event  4, 15, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, DragonspiralFullRestore, EVENT_DRAGONSPIRAL_FULL_RESTORE
 	object_event  2,  7, SPRITE_PZMA_SAGE, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 1, TrainerDragonspiralTowerGiallo, EVENT_DRAGONSPIRAL_TOWER_SAGES
 	

@@ -1,5 +1,5 @@
 	const_def 2 ; object constants
-	const VICTORYROADOUTDOOR1F_MAX_ELIXER
+	const VICTORYROADOUTDOOR1F_MAX_ELIXIR
 	const VICTORYROADOUTDOOR1F_MAX_REPEL
 	const VICTORYROADOUTDOOR1F_FULL_RESTORE
 	const VICTORYROADOUTDOOR1F_NURSE
@@ -59,8 +59,8 @@ TrainerVeteranMVictoryRoadOutdoor1F:
 	closetext
 	end
 	
-VictoryRoadOutdoor1FMaxElixer:
-	itemball MAX_ELIXER
+VictoryRoadOutdoor1FMaxElixir:
+	itemball MAX_ELIXIR
 	
 VictoryRoadOutdoor1FMaxRepel:
 	itemball MAX_REPEL
@@ -188,7 +188,7 @@ VictoryRoadOutdoor1F_MapEvents:
 	bg_event 46, 12, BGEVENT_ITEM, VictoryRoadOutdoor1FRareCandy
 
 	db 7 ; object events
-	object_event 55, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadOutdoor1FMaxElixer, EVENT_VICTORY_ROAD_EXT_MAX_ELIXER_1
+	object_event 55, 10, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadOutdoor1FMaxElixir, EVENT_VICTORY_ROAD_EXT_MAX_ELIXIR_1
 	object_event 12,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadOutdoor1FMaxRepel, EVENT_VICTORY_ROAD_EXT_MAX_REPEL
 	object_event 31,  8, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, VictoryRoadOutdoor1FFullRestore, EVENT_VICTORY_ROAD_EXT_FULL_RESTORE
 	object_event  6,  6, SPRITE_BUENA, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_TRAINER, 0, TrainerNurseVictoryRoadOutdoor1F, -1

@@ -34,8 +34,8 @@ TrainerBattleGirlNacrene:
 NacreneOutskirtUltraBall:
 	hiddenitem ULTRA_BALL, EVENT_NACRENE_OUTSKIRT_ULTRA_BALL
 	
-NacreneOutskirtMaxElixer:
-	hiddenitem MAX_ELIXER, EVENT_NACRENE_OUTSKIRT_MAX_ELIXER
+NacreneOutskirtMaxElixir:
+	hiddenitem MAX_ELIXIR, EVENT_NACRENE_OUTSKIRT_MAX_ELIXIR
 	
 BattleGirlNacreneSeenText:
 	text "Heh, I wonder what"
@@ -88,7 +88,7 @@ NacreneOutskirtEast_MapEvents:
 	
 	db 2 ; bg events
 	bg_event 17, 12, BGEVENT_ITEM, NacreneOutskirtUltraBall
-	bg_event 20, 10, BGEVENT_ITEM, NacreneOutskirtMaxElixer
+	bg_event 20, 10, BGEVENT_ITEM, NacreneOutskirtMaxElixir
 
 	db 4 ; object events
 	object_event 17, 15, SPRITE_BLACK_BELT, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_TRAINER, 2, TrainerBlackbeltNacrene, -1

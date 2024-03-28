@@ -1,5 +1,5 @@
 	const_def 2 ; object constants
-	const R8_ELIXER
+	const R8_ELIXIR
 	const R8_FULL_RESTORE
 	const R8_LOVE_BALL
 	const R8_BIG_PEARL
@@ -140,8 +140,8 @@ TrainerParasolLadyR8:
 .GiveGift:
 	rematchgift HIDDENGROTTO_TIER_3
 	
-R8Elixer:
-	itemball ELIXER
+R8Elixir:
+	itemball ELIXIR
 	
 R8FullRestore:
 	itemball FULL_RESTORE
@@ -291,7 +291,7 @@ Rt8_MapEvents:
 	bg_event  6, 19, BGEVENT_ITEM, R8RareCandy
 	
 	db 8 ; object events
-	object_event 39,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, R8Elixer, EVENT_R8_ELIXER
+	object_event 39,  5, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, R8Elixir, EVENT_R8_ELIXIR
 	object_event 14,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, R8FullRestore, EVENT_R8_FULL_RESTORE
 	object_event  7,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, R8LoveBall, EVENT_R8_LOVE_BALL
 	object_event 21,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, R8BigPearl, EVENT_R8_BIG_PEARL

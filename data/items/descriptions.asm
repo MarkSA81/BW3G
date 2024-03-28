@@ -20,7 +20,7 @@ ItemDescriptions:
 	dw PotionDesc
 	dw EscapeRopeDesc
 	dw RepelDesc
-	dw MaxElixerDesc
+	dw MaxElixirDesc
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
@@ -64,7 +64,7 @@ ItemDescriptions:
 	dw PPUpDesc
 	dw EtherDesc
 	dw MaxEtherDesc
-	dw ElixerDesc
+	dw ElixirDesc
 	dw TimerBallDesc
 	dw QuickBallDesc
 	dw SSTicketDesc
@@ -318,11 +318,11 @@ MaxPotionDesc:
 
 HyperPotionDesc:
 	db   "Restores #MON"
-	next "HP by 200.@"
+	next "HP by 120.@"
 
 SuperPotionDesc:
 	db   "Restores #MON"
-	next "HP by 50.@"
+	next "HP by 60.@"
 
 PotionDesc:
 	db   "Restores #MON"
@@ -336,7 +336,7 @@ RepelDesc:
 	db   "Repels weak #-"
 	next "MON for 100 steps.@"
 
-MaxElixerDesc:
+MaxElixirDesc:
 	db   "Fully restores the"
 	next "PP of one #MON.@"
 
@@ -438,15 +438,15 @@ ShellStoneDesc:
 
 FreshWaterDesc:
 	db   "Restores #MON"
-	next "HP by 50.@"
+	next "HP by 30.@"
 
 SodaPopDesc:
 	db   "Restores #MON"
-	next "HP by 60.@"
+	next "HP by 50.@"
 
 LemonadeDesc:
 	db   "Restores #MON"
-	next "HP by 80.@"
+	next "HP by 70.@"
 
 XAttackDesc:
 	db   "Raises ATTACK."
@@ -512,7 +512,7 @@ MaxEtherDesc:
 	db   "Fully restores PP"
 	next "of one move.@"
 
-ElixerDesc:
+ElixirDesc:
 	db   "Restores PP of all"
 	next "moves by 10.@"
 
@@ -733,11 +733,11 @@ XSpDefDesc:
 
 EnergyPowderDesc:
 	db   "Restores #MON"
-	next "HP by 50. Bitter.@"
+	next "HP by 60. Bitter.@"
 
 EnergyRootDesc:
 	db   "Restores #MON"
-	next "HP by 200. Bitter.@"
+	next "HP by 120. Bitter.@"
 
 HealPowderDesc:
 	db   "Cures all status"

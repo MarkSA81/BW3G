@@ -240,8 +240,8 @@ P2LabTMSwordsDance:
 P2LabIron:
 	hiddenitem IRON, EVENT_P2_LAB_IRON
 	
-P2LabElixer:
-	hiddenitem ELIXER, EVENT_P2_LAB_ELIXER
+P2LabElixir:
+	hiddenitem ELIXIR, EVENT_P2_LAB_ELIXIR
 	
 P2LabCarbos:
 	hiddenitem CARBOS, EVENT_P2_LAB_CARBOS
@@ -552,7 +552,7 @@ P2Lab_MapEvents:
 	bg_event 26, 14, BGEVENT_UP, P2LabDiaryScript3
 	bg_event 26, 10, BGEVENT_UP, P2LabDiaryScript4
 	bg_event 17, 35, BGEVENT_ITEM, P2LabIron
-	bg_event 27, 26, BGEVENT_ITEM, P2LabElixer
+	bg_event 27, 26, BGEVENT_ITEM, P2LabElixir
 	bg_event 13,  1, BGEVENT_ITEM, P2LabCarbos
 
 	db 15 ; object events
