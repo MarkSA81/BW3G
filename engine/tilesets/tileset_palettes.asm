@@ -967,7 +967,7 @@ LoadPokecenterPalette:
 	ret
 	
 PokecenterPalette:
-INCLUDE "gfx/tilesets/pokecom_center.pal"
+INCLUDE "gfx/tilesets/pokecenter_new.pal"
 
 LoadTowerPalette:
 	ld a, BANK(wBGPals1)

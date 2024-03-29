@@ -58,13 +58,13 @@ TilesetPlayersRoomColl:
 INCLUDE "data/tilesets/players_room_collision.asm"
 
 TilesetPokecenterGFX:
-INCBIN "gfx/tilesets/pokecenter.2bpp.lz"
+INCBIN "gfx/tilesets/pokecenter_new.2bpp.lz"
 
 TilesetPokecenterMeta:
-INCBIN "data/tilesets/pokecenter_metatiles.bin"
+INCBIN "data/tilesets/pokecenter_new_metatiles.bin"
 
 TilesetPokecenterColl:
-INCLUDE "data/tilesets/pokecenter_collision.asm"
+INCLUDE "data/tilesets/pokecenter_new_collision.asm"
 
 TilesetPlayersHouseGFX:
 INCBIN "gfx/tilesets/players_house.2bpp.lz"
@@ -390,7 +390,7 @@ TilesetPlayersHouseAttr:
 INCBIN "data/tilesets/players_house_attributes.bin"
 
 TilesetPokecenterAttr:
-INCBIN "data/tilesets/pokecenter_attributes.bin"
+INCBIN "data/tilesets/pokecenter_new_attributes.bin"
 
 TilesetGateAttr:
 INCBIN "data/tilesets/gate_attributes.bin"

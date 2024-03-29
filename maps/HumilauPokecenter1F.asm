@@ -1,6 +1,9 @@
 	const_def 2 ; object constants
 	const HUMILAUPOKECENTER_NURSE
 	const HUMILAUPOKECENTER_CLERK
+	const HUMILAUPOKECENTER_TRADE_RECEPTIONIST
+	const HUMILAUPOKECENTER_BATTLE_RECEPTIONIST
+	const HUMILAUPOKECENTER_LINK_RECEPTIONIST
 	const HUMILAUPOKECENTER_FISHER
 	const HUMILAUPOKECENTER_GENTLEMAN
 	const HUMILAUPOKECENTER_TEACHER
@@ -15,6 +18,9 @@ HumilauPokecenterNurseScript:
 
 HumilauPokecenterClerkScript:
 	jumpstd scalingmart
+	
+LinkReceptionistScript:
+	jumptextfaceplayer Text_LinkRoomsClosed
 
 HumilauPokecenterFisherScript:
 	jumptextfaceplayer HumilauPokecenterFisherText
@@ -24,6 +30,14 @@ HumilauPokecenterGentlemanScript:
 
 HumilauPokecenterTeacherScript:
 	jumptextfaceplayer HumilauPokecenterTeacherText
+	
+Text_LinkRoomsClosed:
+	text "I'm sorry--the"
+	line "LINK ROOMS are"
+	cont "under repair."
+	
+	para "Please come again."
+	done
 
 HumilauPokecenterFisherText:
 	text "Alright! Here's"
@@ -60,16 +74,20 @@ HumilauPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4,  9, HUMILAU_CITY, 3
-	warp_event  5,  9, HUMILAU_CITY, 3
+	warp_event  4, 15, HUMILAU_CITY, 3
+	warp_event  5, 15, HUMILAU_CITY, 3
 
 	db 0 ; coord events
 
-	db 0 ; bg events
+	db 1 ; bg events
+	bg_event  9,  3, BGEVENT_READ, Pokecenter2FLinkRecordSign
 
 	db 5 ; object events
-	object_event  4,  2, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterNurseScript, -1
-	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterClerkScript, -1
-	object_event  1,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterFisherScript, -1
-	object_event  8,  4, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterGentlemanScript, -1
-	object_event  1,  7, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterTeacherScript, -1
+	object_event  4,  8, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterNurseScript, -1
+	object_event  8, 13, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterClerkScript, -1
+	object_event  2,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LinkReceptionistScript, -1
+	object_event  4,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LinkReceptionistScript, -1
+	object_event  6,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, LinkReceptionistScript, -1
+	object_event  0, 10, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterFisherScript, -1
+	object_event  8, 10, SPRITE_GENTLEMAN, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterGentlemanScript, -1
+	object_event  2, 12, SPRITE_TEACHER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauPokecenterTeacherScript, -1

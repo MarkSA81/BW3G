@@ -111,7 +111,7 @@ ENDM
 	map_const PLAYERS_HOUSE_1F, 5, 4 
 	map_const PLAYERS_HOUSE_2F, 4, 3 
 	map_const HUMILAU_CITY, 15, 19
-	map_const HUMILAU_POKECENTER_1F, 5, 5 
+	map_const HUMILAU_POKECENTER_1F, 5, 8 
 	map_const MARLONS_HOUSE, 5, 4
 	map_const PLAYERS_NEIGHBORS_HOUSE, 4, 4 
 	map_const HUMILAU_TRADE_HOUSE, 4, 4 
@@ -123,7 +123,7 @@ ENDM
 	
 	map_const R_13, 18, 27
 	map_const LACUNOSA_TOWN, 10, 11
-	map_const LACUNOSA_POKECENTER_1F, 5, 5 
+	map_const LACUNOSA_POKECENTER_1F, 5, 8
 	map_const R_12, 14, 10
 	map_const LACUNOSA_HOUSE, 4, 4 
 	map_const LACUNOSA_HOUSE_2, 4, 4 
@@ -133,7 +133,7 @@ ENDM
 	
 	map_const R_13_UNDELLA_GATE, 5,  4 
 	map_const UNDELLA_TOWN, 22, 14
-	map_const UNDELLA_POKECENTER_1F, 5, 5 
+	map_const UNDELLA_POKECENTER_1F, 5, 8 
 	map_const UNDELLA_OLD_ROD_HOUSE, 4, 4 
 	map_const MARINE_TUBE_ENTRANCE, 13, 5
 	map_const MARINE_TUBE, 8, 17
@@ -145,7 +145,7 @@ ENDM
 	map_const LENTIMAS_OUTSKIRTS, 20, 12
 	map_const LENTIMAS_TOWN, 16, 14
 	map_const LENTIMAS_COIN_HOUSE, 4, 4
-	map_const LENTIMAS_POKECENTER_1F, 5, 5
+	map_const LENTIMAS_POKECENTER_1F, 5, 8
 	map_const LENTIMAS_HOUSE, 4, 4 
 	map_const LENTIMAS_GYM, 8, 10 
 	map_const LENTIMAS_LOSTLORN_GATE, 5,  8
@@ -157,7 +157,7 @@ ENDM
 	map_const NIMBASA_TM_MART, 6, 4
 	map_const NIMBASA_VITAMIN_MART, 6, 4
 	map_const NIMBASA_BALL_MART, 6, 4
-	map_const NIMBASA_POKECENTER_1F, 5, 5
+	map_const NIMBASA_POKECENTER_1F, 5, 8
 	map_const NIMBASA_HOUSE, 4, 4 
 	map_const NIMBASA_NAME_RATER, 4, 4 
 	map_const R_4_NIMBASA_GATE, 5, 11
@@ -184,7 +184,7 @@ ENDM
 	map_const CASTELIA_CITY_NORTH, 18, 17
 	map_const CASTELIA_CITY_STREETS, 28, 14
 	map_const CASTELIA_CITY_SOUTH, 30, 14
-	map_const CASTELIA_POKECENTER_1F, 5, 5
+	map_const CASTELIA_POKECENTER_1F, 5, 8
 	map_const CASTELIA_BIKE_SHOP, 4,  4
 	map_const CASTELIA_MASSAGE, 4,  4
 	map_const CASTELIA_GAME_FREAK, 4,  5
@@ -208,7 +208,7 @@ ENDM
 	map_const ASPERTIA_CITY, 14, 22
 	map_const ASPERTIA_SUBWAY, 10, 9
 	map_const ASPERTIA_BLACKBELT_HOUSE, 4, 4
-	map_const ASPERTIA_POKECENTER_1F, 5, 5
+	map_const ASPERTIA_POKECENTER_1F, 5, 8
 	map_const ASPERTIA_MOM_HOUSE, 7, 4 
 	map_const ASPERTIA_MOVE_DELETER_HOUSE, 4, 4 
 	map_const ASPERTIA_GYM, 5, 11
@@ -216,7 +216,7 @@ ENDM
 	
 	newgroup
 	map_const FLOCCESY_TOWN, 13, 17
-	map_const FLOCCESY_POKECENTER_1F, 5, 5
+	map_const FLOCCESY_POKECENTER_1F, 5, 8
 	map_const R_19, 21, 13
 	map_const R_20, 23, 18
 	map_const FLOCCESY_RANCH, 16, 11
@@ -228,7 +228,7 @@ ENDM
 	
 	newgroup
 	map_const VIRBANK_CITY, 24, 16
-	map_const VIRBANK_POKECENTER_1F, 5, 5
+	map_const VIRBANK_POKECENTER_1F, 5, 8
 	map_const VIRBANK_HOUSE, 4, 4
 	map_const GAME_CORNER, 10, 7
 	map_const R_20_VIRBANK_GATE, 5, 4
@@ -243,7 +243,7 @@ ENDM
 	map_const NACRENE_OUTSKIRT_EAST, 15, 12
 	map_const NACRENE_OUTSKIRT_CONNECTION_DUMMY, 4, 24
 	map_const NACRENE_CITY, 18, 11
-	map_const NACRENE_POKECENTER_1F, 5, 5
+	map_const NACRENE_POKECENTER_1F, 5, 8
 	map_const NACRENE_STAT_EXP_HOUSE, 4, 4
 	map_const NACRENE_HOUSE, 4, 4
 	map_const NACRENE_CAFE, 4, 4
@@ -254,7 +254,7 @@ ENDM
 	map_const R_3, 22, 20
 	map_const R_3_DAY_CARE, 4, 4
 	map_const STRIATON_CITY, 24, 16
-	map_const STRIATON_POKECENTER_1F, 5, 5
+	map_const STRIATON_POKECENTER_1F, 5, 8
 	map_const STRIATON_TRADE_HOUSE, 4, 4
 	map_const STRIATON_LAB, 4, 4
 	map_const STRIATON_GYM, 7, 9
@@ -263,7 +263,7 @@ ENDM
 	
 	newgroup
 	map_const ACCUMULA_TOWN, 15, 12
-	map_const ACCUMULA_POKECENTER_1F, 5, 5
+	map_const ACCUMULA_POKECENTER_1F, 5, 8
 	map_const ACCUMULA_BALL_MANIAC_HOUSE, 4, 4
 	map_const ACCUMULA_HOUSE, 4, 4
 	map_const ACCUMULA_TRADE_HOUSE, 4, 4
@@ -289,7 +289,7 @@ ENDM
 	newgroup
 	map_const DRIFTVEIL_CITY, 26, 20
 	map_const PWT_DRIFTVEIL_GATE, 5, 4
-	map_const DRIFTVEIL_POKECENTER_1F, 5, 5
+	map_const DRIFTVEIL_POKECENTER_1F, 5, 8
 	map_const DRIFTVEIL_FOSSIL_HOUSE, 4, 4
 	map_const DRIFTVEIL_BRIDGE_GATE, 5, 4
 	map_const DRIFTVEIL_SHELTER, 5, 6
@@ -303,7 +303,7 @@ ENDM
 	
 	newgroup
 	map_const MISTRALTON_CITY, 20, 16
-	map_const MISTRALTON_POKECENTER_1F, 5, 5
+	map_const MISTRALTON_POKECENTER_1F, 5, 8
 	map_const MISTRALTON_MOVE_REMINDER_HOUSE, 4, 4
 	map_const MISTRALTON_HOUSE, 4, 4
 	map_const MISTRALTON_GYM_1F, 7, 10
@@ -322,7 +322,7 @@ ENDM
 	map_const R_11_OPELUCID_GATE, 5, 4
 	map_const OPELUCID_CITY, 28, 17
 	map_const R_9_OPELUCID_GATE, 5, 4
-	map_const OPELUCID_POKECENTER_1F, 5, 5
+	map_const OPELUCID_POKECENTER_1F, 5, 8
 	map_const OPELUCID_BATTLE_HOUSE, 5, 4
 	map_const OPELUCID_SUPER_ROD_HOUSE, 4, 4 
 	map_const OPELUCID_GYM, 14, 16
@@ -343,7 +343,7 @@ ENDM
 	map_const ICIRRUS_CITY_NORTH, 13, 13
 	map_const R_8, 24, 11
 	map_const MOOR_OF_ICIRRUS, 24, 20
-	map_const ICIRRUS_POKECENTER_1F, 5, 5
+	map_const ICIRRUS_POKECENTER_1F, 5, 8
 	map_const ICIRRUS_BOUTIQUE, 6, 4
 	map_const ICIRRUS_HOUSE, 4, 4
 	map_const ICIRRUS_FAN_CLUB, 5, 6
@@ -359,8 +359,8 @@ ENDM
 	map_const VICTORY_ROAD_ENTRANCE_NORTH, 26, 12
 	map_const VICTORY_ROAD_ENTRANCE_NORTH_CONNECTION_DUMMY, 28, 3
 	map_const PKMN_LEAGUE_ENTRANCE, 15, 12
-	map_const VICTORY_ROAD_POKECENTER_1F, 5, 5
-	map_const PKMN_LEAGUE_POKECENTER_1F, 5, 5
+	map_const VICTORY_ROAD_POKECENTER_1F, 5, 8
+	map_const PKMN_LEAGUE_POKECENTER_1F, 5, 8
 	map_const PKMN_LEAGUE_MAIN, 14, 12
 	map_const GRIMSLEYS_ROOM, 8, 7
 	map_const MARSHALS_ROOM, 8, 7
