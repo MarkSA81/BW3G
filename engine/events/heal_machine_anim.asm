@@ -106,14 +106,16 @@ ENDM
 	ld b, a
 .party_loop
 	call .PlaceHealingMachineTile
+	; dec b ;move here to insta-place
+	; jr nz, .party_loop ;move here to insta-place
 	push de
 	ld de, SFX_SECOND_PART_OF_ITEMFINDER
 	call PlaySFX
 	pop de
-	ld c, 30
+	ld c, 25
 	call DelayFrames
-	dec b
-	jr nz, .party_loop
+	dec b ;move to insta-place
+	jr nz, .party_loop ;move to insta-place
 	ret
 
 .PlayHealMusic:
@@ -133,15 +135,16 @@ ENDM
 .dummy_5
 	ret
 
-.PC_ElmsLab_OAM:
-	dsprite   2, 3,  10, 4, $7c, PAL_OW_TREE | OBP_NUM
-	dsprite   2, 3,  10, 4, $7c, PAL_OW_TREE | OBP_NUM
-	dsprite   3, 3,  10, 0, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   3, 3,  11, 0, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
-	dsprite   4, 0,  10, 0, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   4, 0,  11, 0, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
-	dsprite   4, 5,  10, 0, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   4, 5,  11, 0, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+.PC_ElmsLab_OAM: ;Co-ords accounting for the 'X2, Y4' offset
+	;Y, Y-offset, X, X-offset
+	dsprite   2, 0,  10, 1, $7c, PAL_OW_TREE | OBP_NUM
+	dsprite   2, 0,  10, 7, $7c, PAL_OW_TREE | OBP_NUM
+	dsprite   3, 0,   9, 7, $7d, PAL_OW_TREE | OBP_NUM
+	dsprite   3, 0,  11, 1, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   3, 4,   9, 4, $7d, PAL_OW_TREE | OBP_NUM
+	dsprite   3, 4,  11, 4, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   4, 0,   9, 7, $7d, PAL_OW_TREE | OBP_NUM
+	dsprite   4, 0,  11, 1, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
 
 .HealMachineGFX:
 INCBIN "gfx/overworld/heal_machine.2bpp"
@@ -238,10 +241,10 @@ INCLUDE "gfx/overworld/heal_machine.pal"
 .PlaceHealingMachineTile:
 	push bc
 	ld a, [wBuffer1]
-	bcpixel 2, 4
+	bcpixel 2, 4 ;Based from Nurse's location
 	cp HEALMACHINE_ELMS_LAB
 	jr z, .okay
-	bcpixel 0, 0
+	bcpixel 0, 0 ;Uses player's location
 
 .okay
 	ld a, [de]
