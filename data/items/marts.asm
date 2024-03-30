@@ -185,29 +185,26 @@ MartMembers2:
 	db -1 ; end
 
 MartNoDex:
-	db 3 ; # items
+	db 1 ; # items
 	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
 	db -1 ; end
 
 MartNoBadges:
-	db 4 ; # items
+	db 2 ; # items
 	db POKE_BALL
 	db POTION
-	db ANTIDOTE
-	db PARLYZ_HEAL
 	db -1 ; end
 
 MartOneBadge:
-	db 8 ; # items
+	db 9 ; # items
 	db POKE_BALL
 	db POTION
 	db SUPER_POTION
 	db ANTIDOTE
 	db PARLYZ_HEAL
 	db AWAKENING
-	db ESCAPE_ROPE
+	db BURN_HEAL
+	db ICE_HEAL
 	db REPEL
 	db -1 ; end
 
