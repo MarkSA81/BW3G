@@ -139,12 +139,12 @@ ENDM
 	;Y, Y-offset, X, X-offset
 	dsprite   2, 0,  10, 1, $7c, PAL_OW_TREE | OBP_NUM
 	dsprite   2, 0,  10, 7, $7c, PAL_OW_TREE | OBP_NUM
-	dsprite   3, 0,   9, 7, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   3, 0,  11, 1, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
-	dsprite   3, 4,   9, 4, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   3, 4,  11, 4, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
-	dsprite   4, 0,   9, 7, $7d, PAL_OW_TREE | OBP_NUM
-	dsprite   4, 0,  11, 1, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   3, 0,  10, 0, $7d, PAL_OW_TREE | OBP_NUM ;Top-left clockwise
+	dsprite   3, 0,  11, 0, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   3, 4,  11, 3, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   4, 0,  11, 0, $7d, PAL_OW_TREE | OBP_NUM | X_FLIP
+	dsprite   4, 0,  10, 0, $7d, PAL_OW_TREE | OBP_NUM
+	dsprite   3, 4,   9, 5, $7d, PAL_OW_TREE | OBP_NUM
 
 .HealMachineGFX:
 INCBIN "gfx/overworld/heal_machine.2bpp"
