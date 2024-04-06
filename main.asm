@@ -275,6 +275,7 @@ INCLUDE "engine/events/engine_flags.asm"
 INCLUDE "engine/overworld/variables.asm"
 INCLUDE "data/text/battle.asm"
 INCLUDE "engine/menus/debug.asm"
+INCLUDE "engine/menus/debug_menu.asm"
 
 
 SECTION "bank21", ROMX

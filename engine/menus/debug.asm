@@ -345,7 +345,7 @@ Function81adb:
 	ld de, String_81bb4
 
 .asm_81b69
-	hlcoord 7, 17
+	hlcoord 14, 17
 	call PlaceString
 	hlcoord 0, 17
 	ld de, String_81bb9
@@ -373,9 +373,9 @@ Function81adb:
 	ld [wJumptableIndex], a
 	ret
 
-String_81baf: db "レア", DEBUGTEST_BLACK, DEBUGTEST_BLACK, "@" ; rare (shiny)
-String_81bb4: db "ノーマル@" ; normal
-String_81bb9: db DEBUGTEST_A, "きりかえ▶@" ; (A) switches
+String_81baf: db DEBUGTEST_BLACK, "SHINY@" ; rare (shiny)
+String_81bb4: db "NORMAL@" ; normal
+String_81bb9: db DEBUGTEST_A, "▶SWITCH@" ; (A) switches
 
 Function81bc0:
 	decoord 0, 11, wAttrMap
@@ -760,8 +760,8 @@ Function81df4:
 	call PlaceString
 	ret
 
-String_81e46: db "おぼえられる@" ; can be taught
-String_81e4d: db "おぼえられない@" ; cannot be taught
+String_81e46: db "ABLE@" ; can be taught
+String_81e4d: db "UNABLE@" ; cannot be taught
 
 Function81e55:
 	cp $32
@@ -1026,9 +1026,9 @@ Function81f5e:
 	ret
 
 String_81fcd:
-	db   "おわりますか？" ; Are you finished?
-	next "はい<DOT><DOT><DOT>", DEBUGTEST_A ; YES...(A)
-	next "いいえ<DOT><DOT>", DEBUGTEST_B ; NO..(B)
+	db   "DONE?" ; Are you finished?
+	next "YES<DOT><DOT><DOT>", DEBUGTEST_A ; YES...(A)
+	next "NO<DOT><DOT>", DEBUGTEST_B ; NO..(B)
 	db   "@"
 
 DebugColorTestGFX:

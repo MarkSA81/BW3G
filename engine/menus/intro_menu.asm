@@ -57,6 +57,11 @@ MysteryGift:
 OptionsMenu:
 	farcall _OptionsMenu
 	ret
+	
+DebugMenu:
+	;farcall _DebugMenu
+	farcall ColorTest
+	ret
 
 NewGame:
 	xor a

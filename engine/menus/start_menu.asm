@@ -405,7 +405,13 @@ endr
 StartMenu_Exit:
 ; Exit the menu.
 
-	ld a, 1
+	;ld a, 1
+	;ret
+	
+; Debug menu.
+	call FadeToMenu
+	farcall DebugMenu
+	ld a, 6
 	ret
 
 StartMenu_Quit:
