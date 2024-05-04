@@ -142,8 +142,6 @@ PokecenterNurseScript:
 	pause 15
 
 	closetext
-	pause 5
-	turnobject PLAYER, DOWN
 	end
 
 .pokerus
