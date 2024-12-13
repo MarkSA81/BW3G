@@ -1187,6 +1187,7 @@ GardevoirEvosAttacks:
 	db 1, CONFUSION
 	db 1, DOUBLE_TEAM
 	db 1, FAIRY_WIND
+	db 1, AURA_SPHERE
 	db 4, CONFUSION
 	db 6, DOUBLE_TEAM
 	db 11, FAIRY_WIND ; Disarming Voice
@@ -1213,6 +1214,7 @@ GalladeEvosAttacks:
 	db 1, LEER
 	db 1, CONFUSION
 	db 1, DOUBLE_TEAM
+	db 1, AURA_SPHERE
 	db 4, CONFUSION
 	db 6, DOUBLE_TEAM
 	db 11, FAIRY_WIND ; Quick Guard
