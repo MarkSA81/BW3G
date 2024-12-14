@@ -69,7 +69,7 @@ TrainerClassDVs:
 	dn  7, 12, 12,  8 ; VETERAN_F
 	dn  9,  8,  8,  8 ; WAITER
 	dn  6, 10, 10,  8 ; WAITRESS
-	dn 10,  8,  8,  8 ; WORKER
+	dn 11,  8,  8,  8 ; WORKER
 	dn 13,  8, 10,  8 ; GRUNTM
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn 13, 13, 13, 13 ; MARLON
@@ -87,7 +87,7 @@ TrainerClassDVs:
 	dn 15, 15, 15, 15 ; JUNIPER
 	dn 13, 13, 13, 13 ; BIANCA
 	dn 11, 11, 11, 11 ; GIALLO
-	dn 12, 12, 12, 12 ; BRONIUS
+	dn 13, 13, 13, 13 ; BRONIUS
 	dn 13, 13, 13, 13 ; RYOKU
 	dn 13, 13, 13, 13 ; GORM
 	dn 13, 13, 13, 13 ; MYSTERYMAN
