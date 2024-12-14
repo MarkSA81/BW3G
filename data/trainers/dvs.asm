@@ -75,7 +75,7 @@ TrainerClassDVs:
 	dn  9, 11,  7,  7 ; MARLON
 	dn 11,  9, 11,  9 ; SHAUNTAL
 	dn 11, 11, 11, 11 ; BURGH
-	dn 12, 12, 12, 12 ; ROXIE
+	dn 13, 13, 13, 13 ; ROXIE
 	dn 13, 13, 13, 13 ; CHEREN
 	dn 13, 13, 13, 13 ; CILAN
 	dn 15, 15, 15, 15 ; SKYLA
