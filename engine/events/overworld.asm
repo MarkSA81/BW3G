@@ -2229,14 +2229,25 @@ GotOffTheBikeText:
 	text_end
 
 TryCutOW::
-	ld d, CUT
-	call CheckPartyMove
-	jr c, .cant_cut
-
 	ld de, ENGINE_SPOOKYBADGE
 	call CheckEngineFlag
 	jr c, .cant_cut
 
+	ld a, HM_CUT
+	ld [wCurItem], a
+	ld hl, wNumItems
+	call CheckItem
+	jr z, .cant_cut
+
+	ld d, CUT
+	call CheckPartyCanLearnMove
+	and a
+	jr z, .yes
+
+	ld d, CUT
+	call CheckPartyMove
+	jr c, .cant_cut
+.yes
 	ld a, BANK(AskCutScript)
 	ld hl, AskCutScript
 	call CallScript
