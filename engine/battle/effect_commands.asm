@@ -2850,6 +2850,8 @@ EnemyAttackDamage:
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
+	call HailDefBoost
+	jr .screens
 
 	ld a, [wPlayerScreens]
 	bit SCREENS_REFLECT, a
