@@ -2595,6 +2595,8 @@ PlayerAttackDamage:
 	ld a, [hli]
 	ld b, a
 	ld c, [hl]
+	call HailDefBoost
+	jr .screens
 
 	ld a, [wEnemyScreens]
 	bit SCREENS_REFLECT, a
