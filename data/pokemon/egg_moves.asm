@@ -36,7 +36,6 @@ OshawottEggMoves:
 	db -1 ; end
 
 PatratEggMoves:
-	db FLAIL
 	db FORESIGHT
 	db IRON_TAIL
 	db PURSUIT
@@ -216,7 +215,7 @@ RioluEggMoves:
 	db CRUNCH
 	db HI_JUMP_KICK
 	db IRON_DEFENSE
-	db LOW_KICK
+	db LOW_SWEEP
 	db METEOR_MASH
 	db LOCK_ON
 	db -1 ; end
@@ -240,7 +239,6 @@ AronEggMoves:
 
 OnixEggMoves:
 	db DEFENSE_CURL
-	db FLAIL
 	db ROLLOUT
 	db -1 ; end
 
@@ -432,7 +430,6 @@ BasculinEggMoves:
 
 RemoraidEggMoves:
 	db AURORA_BEAM
-	db FLAIL
 	db HAZE
 	db MUD_SHOT
 	db SCREECH
@@ -502,7 +499,6 @@ TrapinchEggMoves:
 	db BUG_BITE
 	db EARTH_POWER
 	db ENDURE
-	db FLAIL
 	db FOCUS_ENERGY
 	db FURY_CUTTER
 	db GUST
@@ -557,7 +553,6 @@ SigilyphEggMoves:
 
 TirtougaEggMoves:
 	db BODY_SLAM
-	db FLAIL
 	db IRON_DEFENSE
 	db ROCK_THROW
 	db WATER_PULSE
@@ -588,7 +583,6 @@ EmolgaEggMoves:
 VulpixEggMoves:
 	db DISABLE
 	db EXTRASENSORY
-	db FLAIL
 	db FAINT_ATTACK
 	db FLARE_BLITZ
 	db HEX
@@ -622,7 +616,6 @@ EeveeEggMoves:
 	db CHARM
 	db CURSE
 	db ENDURE
-	db FLAIL
 	db -1 ; end
 
 CroagunkEggMoves:
@@ -673,14 +666,12 @@ PinsirEggMoves:
 	db BUG_BITE
 	db CLOSE_COMBAT
 	db FAINT_ATTACK
-	db FLAIL
 	db FURY_ATTACK
 	db QUICK_ATTACK
 	db -1 ; end
 
 HeracrossEggMoves:
 	db DOUBLE_EDGE
-	db FLAIL
 	db HARDEN
 	db MEGAHORN
 	db PURSUIT
@@ -821,7 +812,6 @@ HorseaEggMoves:
 	db DISABLE
 	db DRAGONBREATH
 	db DRAGON_RAGE
-	db FLAIL
 	db OUTRAGE
 	db SIGNAL_BEAM
 	db WATER_PULSE
