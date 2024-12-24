@@ -4173,19 +4173,15 @@ BattleAnim_Curse:
 	anim_ret
 
 BattleAnim_PlasmaFists:
-	anim_1gfx ANIM_GFX_HIT
-	anim_call BattleAnim_TargetObj_1Row
-	anim_sound 0, 0, SFX_SUBMISSION
-	anim_bgeffect ANIM_BG_2C, $0, $1, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_01, 120, 48, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_01, 152, 48, $0
-	anim_wait 8
-	anim_obj ANIM_OBJ_01, 136, 48, $0
-	anim_wait 8
-	anim_incbgeffect ANIM_BG_2C
-	anim_call BattleAnim_ShowMon_0
+	anim_2gfx ANIM_GFX_LIGHTNING, ANIM_GFX_EXPLOSION
+	anim_obj ANIM_OBJ_LIGHTNING_BOLT, 136, 56, $2
+	anim_wait 16
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj ANIM_OBJ_2F, 152, 68, $0
+	anim_wait 16
+	anim_sound 0, 1, SFX_THUNDER
+	anim_obj ANIM_OBJ_2D, 136, 68, $0
+	anim_wait 48
 	anim_ret
 
 BattleAnim_Conversion:
