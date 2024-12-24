@@ -211,7 +211,7 @@ BattleAnimations::
 	dw BattleAnim_Explosion
 	dw BattleAnim_Return
 	dw BattleAnim_Extremespeed
-	dw BattleAnim_Flail
+	dw BattleAnim_PlasmaFists
 	dw BattleAnim_GigaImpact
 	dw BattleAnim_Swift
 	dw BattleAnim_Sonicboom
@@ -4172,7 +4172,7 @@ BattleAnim_Curse:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
-BattleAnim_Flail:
+BattleAnim_PlasmaFists:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_1Row
 	anim_sound 0, 0, SFX_SUBMISSION
