@@ -210,7 +210,7 @@ MoveDescriptions::
 	dw ExplosionDescription
 	dw ReturnDescription
 	dw ExtremespeedDescription
-	dw FlailDescription
+	dw PlasmaFistsDescription
 	dw GigaImpactDescription
 	dw SwiftDescription
 	dw SonicboomDescription
