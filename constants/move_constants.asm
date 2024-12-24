@@ -95,7 +95,7 @@
 	const COUNTER      ; 57
 	const MACH_PUNCH   ; 58
 	const KARATE_CHOP  ; 59
-	const LOW_KICK     ; 5a
+	const LOW_SWEEP    ; 5a
 	const DOUBLE_KICK  ; 5b
 	const VITAL_THROW  ; 5c
 	const DRAIN_PUNCH  ; 5d
@@ -216,7 +216,7 @@
 	const EXPLOSION    ; d0
 	const RETURN       ; d1
 	const EXTREMESPEED ; d2
-	const FLAIL        ; d3
+	const PLASMA_FISTS ; d3
 	const GIGA_IMPACT  ; d4
 	const SWIFT        ; d5
 	const SONICBOOM    ; d6
