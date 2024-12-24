@@ -132,7 +132,7 @@ PigniteEvosAttacks:
 
 EmboarEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, LOW_KICK
+	db 1, LOW_SWEEP
 	db 1, HAMMER_ARM
 	db 1, TACKLE
 	db 1, TAIL_WHIP
