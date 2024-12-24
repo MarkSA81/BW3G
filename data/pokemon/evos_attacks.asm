@@ -246,7 +246,7 @@ WatchogEvosAttacks:
 	db 1, TACKLE
 	db 1, LEER
 	db 1, BITE
-	db 1, LOW_KICK
+	db 1, LOW_SWEEP
 	db 3, LEER
 	db 6, BITE
 	db 11, PROTECT ; Detect
