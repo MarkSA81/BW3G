@@ -973,8 +973,8 @@ CurseDescription:
 	next "for ghost-types.@"
 
 PlasmaFistsDescription:
-	db   "Stronger if the"
-	next "user's HP is low.@"
+	db   "Attack with"
+	next "plasma fists@"
 
 FlashCannonDescription:
 	db   "An attack that may"
