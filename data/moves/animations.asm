@@ -90,7 +90,7 @@ BattleAnimations::
 	dw BattleAnim_Counter
 	dw BattleAnim_MachPunch
 	dw BattleAnim_KarateChop
-	dw BattleAnim_LowKick
+	dw BattleAnim_LowSweep
 	dw BattleAnim_DoubleKick
 	dw BattleAnim_VitalThrow
 	dw BattleAnim_DrainPunch
