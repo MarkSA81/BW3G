@@ -118,7 +118,7 @@ PigniteEvosAttacks:
 	db 7, EMBER
 	db 13, DEFENSE_CURL
 	db 15, FLAME_WHEEL ; Flame Charge
-	db 16, LOW_KICK ; Arm Thrust
+	db 16, LOW_SWEEP ; Arm Thrust
 	db 20, POISON_GAS ; Smog
 	db 23, ROLLOUT
 	db 28, TAKE_DOWN
@@ -143,7 +143,7 @@ EmboarEvosAttacks:
 	db 7, EMBER
 	db 13, DEFENSE_CURL
 	db 15, FLAME_WHEEL ; Flame Charge
-	db 16, LOW_KICK ; Arm Thrust
+	db 16, LOW_SWEEP ; Arm Thrust
 	db 20, POISON_GAS ; Smog
 	db 23, ROLLOUT
 	db 28, TAKE_DOWN
