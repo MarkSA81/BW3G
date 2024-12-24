@@ -89,7 +89,7 @@ MoveDescriptions::
 	dw CounterDescription
 	dw MachPunchDescription
 	dw KarateChopDescription
-	dw LowKickDescription
+	dw LowSweepDescription
 	dw DoubleKickDescription
 	dw VitalThrowDescription
 	dw DrainPunchDescription
@@ -540,9 +540,9 @@ MoonblastDescription:
 	db   "An attack that may"
 	next "lower SPCL.ATK.@"
 
-LowKickDescription:
-	db   "An attack that may"
-	next "cause flinching.@"
+LowSweepDescription:
+	db   "An attack that"
+	next "lowers SPEED.@"
 
 CounterDescription:
 	db   "Returns a physical"
@@ -972,7 +972,7 @@ CurseDescription:
 	db   "Works differently"
 	next "for ghost-types.@"
 
-FlailDescription:
+PlasmaFistsDescription:
 	db   "Stronger if the"
 	next "user's HP is low.@"
 
