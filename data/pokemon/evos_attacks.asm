@@ -907,7 +907,7 @@ ClefairyEvosAttacks:
 	db 13, DEFENSE_CURL
 	db 16, FORESIGHT ; Follow Me
 	db 19, DRAININGKISS ; Bestow
-	db 22, LOW_KICK ; Wake-Up Slap
+	db 22, LOW_SWEEP ; Wake-Up Slap
 	db 25, MINIMIZE
 	db 28, EXTRASENSORY ; Stored Power
 	db 31, METRONOME
@@ -1422,7 +1422,7 @@ RioluEvosAttacks:
 	db 1, ENDURE
 	db 6, COUNTER
 	db 11, FURY_SWIPES ; Feint
-	db 15, LOW_KICK ; Force Palm
+	db 15, LOW_SWEEP ; Force Palm
 	db 19, SWORDS_DANCE ; Copycat
 	db 24, SCREECH
 	db 29, REVERSAL
@@ -1439,7 +1439,7 @@ LucarioEvosAttacks:
 	db 1, METAL_CLAW
 	db 6, COUNTER
 	db 11, FURY_SWIPES ; Feint
-	db 15, LOW_KICK ; Power-Up Punch
+	db 15, LOW_SWEEP ; Power-Up Punch
 	db 19, SWORDS_DANCE
 	db 24, METAL_CLAW ; Metal Sound
 	db 29, MACH_PUNCH ; Bone Rush
@@ -1459,7 +1459,7 @@ TimburrEvosAttacks:
 	db 1, TACKLE ; Pound
 	db 1, LEER
 	db 4, FOCUS_ENERGY
-	db 12, LOW_KICK
+	db 12, LOW_SWEEP
 	db 16, ROCK_THROW
 	db 20, VITAL_THROW ; Wake-Up Slap
 	db 24, DIZZY_PUNCH ; Chip Away
@@ -1479,7 +1479,7 @@ GurdurrEvosAttacks:
 	db 1, TACKLE ; Pound
 	db 1, LEER
 	db 4, FOCUS_ENERGY
-	db 12, LOW_KICK
+	db 12, LOW_SWEEP
 	db 16, ROCK_THROW
 	db 20, VITAL_THROW ; Wake-Up Slap
 	db 24, DIZZY_PUNCH ; Chip Away
@@ -1498,9 +1498,9 @@ ConkeldurrEvosAttacks:
 	db 1, TACKLE ; Pound
 	db 1, LEER
 	db 1, FOCUS_ENERGY
-	db 1, LOW_KICK
+	db 1, LOW_SWEEP
 	db 4, FOCUS_ENERGY
-	db 12, LOW_KICK
+	db 12, LOW_SWEEP
 	db 16, ROCK_THROW
 	db 20, VITAL_THROW ; Wake-Up Slap
 	db 24, DIZZY_PUNCH ; Chip Away
@@ -2818,7 +2818,7 @@ ElekidEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 5, THUNDERSHOCK
-	db 8, LOW_KICK
+	db 8, LOW_SWEEP
 	db 12, SWIFT
 	db 15, SHOCK_WAVE
 	db 19, THUNDER_WAVE
@@ -2837,7 +2837,7 @@ ElectabuzzEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 5, THUNDERSHOCK
-	db 8, LOW_KICK
+	db 8, LOW_SWEEP
 	db 12, SWIFT
 	db 15, SHOCK_WAVE
 	db 19, THUNDER_WAVE
@@ -2856,9 +2856,9 @@ ElectivireEvosAttacks:
 	db 1, QUICK_ATTACK
 	db 1, LEER
 	db 1, THUNDERSHOCK
-	db 1, LOW_KICK
+	db 1, LOW_SWEEP
 	db 5, THUNDERSHOCK
-	db 8, LOW_KICK
+	db 8, LOW_SWEEP
 	db 12, SWIFT
 	db 15, SHOCK_WAVE
 	db 19, THUNDER_WAVE
@@ -3114,7 +3114,7 @@ ScraggyEvosAttacks:
 	db 5, SAND_ATTACK
 	db 9, FAINT_ATTACK
 	db 12, SWAGGER
-	db 16, LOW_KICK
+	db 16, LOW_SWEEP
 	db 20, THIEF ; Payback
 	db 23, DRAIN_PUNCH ; Brick Break
 	db 27, DIZZY_PUNCH ; Chip Away
@@ -3136,7 +3136,7 @@ ScraftyEvosAttacks:
 	db 5, SAND_ATTACK
 	db 9, FAINT_ATTACK
 	db 12, SWAGGER
-	db 16, LOW_KICK
+	db 16, LOW_SWEEP
 	db 20, THIEF ; Payback
 	db 23, DRAIN_PUNCH ; Brick Break
 	db 27, DIZZY_PUNCH ; Chip Away
