@@ -489,7 +489,6 @@ SewaddleEvosAttacks:
 	db 29, ENDURE
 	db 31, ACID_ARMOR ; Sticky Web
 	db 36, BUG_BUZZ
-	db 43, FLAIL
 	db 0 ; no more level-up moves
 
 SwadloonEvosAttacks:
@@ -664,10 +663,9 @@ TympoleEvosAttacks:
 	db 23, SONICBOOM ; Uproar
 	db 27, SCALD ; Muddy Water
 	db 31, RAIN_DANCE
-	db 34, FLAIL
+	db 34, HYPER_VOICE
 	db 38, EARTH_POWER ; Echoed Voice
 	db 42, HYDRO_PUMP
-	db 45, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 PalpitoadEvosAttacks:
@@ -683,10 +681,9 @@ PalpitoadEvosAttacks:
 	db 23, SONICBOOM ; Uproar
 	db 28, SCALD ; Muddy Water
 	db 33, RAIN_DANCE
-	db 37, FLAIL
+	db 37, HYPER_VOICE
 	db 42, EARTH_POWER ; Echoed Voice
 	db 47, HYDRO_PUMP
-	db 51, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 SeismitoadEvosAttacks:
@@ -705,11 +702,10 @@ SeismitoadEvosAttacks:
 	db 28, SCALD ; Muddy Water
 	db 33, RAIN_DANCE
 	db 35, ACID
-	db 39, FLAIL
+	db 39, HYPER_VOICE
 	db 44, DRAIN_PUNCH
 	db 49, EARTH_POWER ; Echoed Voice
 	db 53, HYDRO_PUMP
-	db 59, HYPER_VOICE
 	db 0 ; no more level-up moves
 
 ZubatEvosAttacks:
@@ -1713,7 +1709,7 @@ DwebbleEvosAttacks:
 	db 31, SLASH
 	db 35, X_SCISSOR
 	db 37, SWORDS_DANCE ; Shell Smash
-	db 41, FLAIL
+	db 41, STRENGTH
 	db 43, STONE_EDGE ; Rock Wrecker
 	db 0 ; no more level-up moves
 
@@ -1735,7 +1731,7 @@ CrustleEvosAttacks:
 	db 31, SLASH
 	db 38, X_SCISSOR
 	db 43, SWORDS_DANCE ; Shell Smash
-	db 50, FLAIL
+	db 50, STRENGTH
 	db 55, STONE_EDGE ; Rock Wrecker
 	db 0 ; no more level-up moves
 
@@ -2049,8 +2045,7 @@ CottoneeEvosAttacks:
 	db 35, ENERGY_BALL
 	db 37, BARRIER ; Cotton Guard
 	db 40, SUNNY_DAY
-	db 44, FLAIL ; Endeavor
-	db 46, SOLARBEAM
+	db 44, SOLARBEAM
 	db 0 ; no more level-up moves
 
 WhimsicottEvosAttacks:
@@ -2590,7 +2585,7 @@ KarrablastEvosAttacks:
 	db 37, TAKE_DOWN
 	db 40, SCARY_FACE
 	db 44, X_SCISSOR
-	db 49, FLAIL
+	db 49, TAKE_DOWN
 	db 52, SWORDS_DANCE
 	db 56, DOUBLE_EDGE
 	db 0 ; no more level-up moves
@@ -2719,10 +2714,9 @@ BasculinEvosAttacks:
 	db 23, RAIN_DANCE ; Soak
 	db 26, DOUBLE_EDGE
 	db 30, SCARY_FACE
-	db 34, FLAIL
-	db 38, REVERSAL ; Final Gambit
-	db 42, GIGA_IMPACT ; Thrash
-	db 46, ZEN_HEADBUTT ; Head Smash
+	db 34, REVERSAL ; Final Gambit
+	db 38, GIGA_IMPACT ; Thrash
+	db 42, ZEN_HEADBUTT ; Head Smash
 	db 0 ; no more level-up moves
 
 RemoraidEvosAttacks:
@@ -3122,7 +3116,7 @@ ScraggyEvosAttacks:
 	db 34, SCARY_FACE
 	db 38, CRUNCH
 	db 42, BODY_SLAM ; Facade
-	db 45, FLAIL ; Rock Climb
+	db 45, DIZZY_PUNCH ; Rock Climb
 	db 48, CROSS_CHOP ; Focus Punch
 	db 50, STONE_EDGE ; Head Smash
 	db 0 ; no more level-up moves
@@ -3144,7 +3138,7 @@ ScraftyEvosAttacks:
 	db 34, SCARY_FACE
 	db 38, CRUNCH
 	db 45, BODY_SLAM ; Facade
-	db 51, FLAIL ; Rock Climb
+	db 51, DIZZY_PUNCH ; Rock Climb
 	db 58, CROSS_CHOP ; Focus Punch
 	db 65, STONE_EDGE ; Head Smash
 	db 0 ; no more level-up moves
@@ -3958,7 +3952,6 @@ CorsolaEvosAttacks:
 	db 41, POWER_GEM
 	db 45, MIRROR_COAT
 	db 47, EARTH_POWER
-	db 50, FLAIL
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
@@ -4177,8 +4170,8 @@ AxewEvosAttacks:
 	db 13, DRAGONBREATH ; Dual Chop
 	db 16, SCARY_FACE
 	db 20, SLASH
-	db 24, FLAIL ; False Swipe
-	db 28, DRAGON_CLAW
+	db 24, DRAGON_CLAW
+	db 28, CRUNCH
 	db 32, DRAGON_DANCE
 	db 36, SWAGGER ; Taunt
 	db 41, DRAGON_PULSE
@@ -4198,8 +4191,8 @@ FraxureEvosAttacks:
 	db 13, DRAGONBREATH ; Dual Chop
 	db 16, SCARY_FACE
 	db 20, SLASH
-	db 24, FLAIL ; False Swipe
-	db 28, DRAGON_CLAW
+	db 24, DRAGON_CLAW
+	db 28, CRUNCH
 	db 32, DRAGON_DANCE
 	db 36, SWAGGER ; Taunt
 	db 42, DRAGON_PULSE
@@ -4222,8 +4215,8 @@ HaxorusEvosAttacks:
 	db 13, DRAGONBREATH ; Dual Chop
 	db 16, SCARY_FACE
 	db 20, SLASH
-	db 24, FLAIL ; False Swipe
-	db 28, DRAGON_CLAW
+	db 24, DRAGON_CLAW
+	db 28, CRUNCH
 	db 32, DRAGON_DANCE
 	db 36, SWAGGER ; Taunt
 	db 42, DRAGON_PULSE
@@ -4363,7 +4356,7 @@ CubchooEvosAttacks:
 	db 25, ENDURE
 	db 29, CHARM
 	db 33, SLASH
-	db 36, FLAIL
+	db 36, TAKE_DOWN
 	db 41, REST
 	db 45, BLIZZARD
 	db 49, HAIL
@@ -4388,7 +4381,7 @@ BearticEvosAttacks:
 	db 25, ENDURE
 	db 29, CHARM
 	db 33, SLASH
-	db 36, FLAIL
+	db 36, TAKE_DOWN
 	db 36, ICICLE_CRASH
 	db 41, REST
 	db 45, BLIZZARD
@@ -4551,8 +4544,8 @@ SwinubEvosAttacks:
 	db 28, TAKE_DOWN
 	db 35, MIST
 	db 37, EARTHQUAKE
-	db 40, FLAIL
-	db 44, BLIZZARD
+	db 40, DOUBLE_EDGE
+	db 40, BLIZZARD
 	db 48, AMNESIA
 	db 0 ; no more level-up moves
 
@@ -5004,7 +4997,7 @@ StunfiskEvosAttacks:
 	db 40, EARTH_POWER ; Muddy Water
 	db 45, THUNDERBOLT
 	db 50, COUNTER ; Revenge
-	db 55, FLAIL
+	db 55, SCALD
 	db 61, EARTHQUAKE ; Fissure
 	db 0 ; no more level-up moves
 
