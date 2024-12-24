@@ -3,7 +3,7 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE ; SERPERIOR
 	db NO_MOVE
-	db LOW_KICK
+	db LOW_SWEEP
 	db HAMMER_ARM ; EMBOAR
 	db NO_MOVE
 	db NO_MOVE
