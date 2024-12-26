@@ -34,6 +34,7 @@ SnivyEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, LEER
+	db 4, PLASMA_FISTS
 	db 7, VINE_WHIP
 	db 10, WRAP
 	db 13, GROWTH
