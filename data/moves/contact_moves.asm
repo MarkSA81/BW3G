@@ -21,7 +21,7 @@ ContactMoves:
 	db BITE
 	db PECK
 	db DRILL_PECK
-	db LOW_KICK
+	db LOW_SWEEP
 	db COUNTER
 	db STRENGTH
 	db PETAL_DANCE
@@ -37,7 +37,7 @@ ContactMoves:
 	db SLASH
 	db THIEF
 	db FLAME_WHEEL
-	db FLAIL
+	db PLASMA_FISTS
 	db REVERSAL
 	db MACH_PUNCH
 	db FAINT_ATTACK
