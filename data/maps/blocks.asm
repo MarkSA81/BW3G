@@ -95,6 +95,10 @@ IcirrusPokecenter1F_Blocks:
 VictoryRoadPokecenter1F_Blocks:
 PkmnLeaguePokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter_new.ablk"
+	
+; VictoryRoadPokecenter1F_Blocks:
+; PkmnLeaguePokecenter1F_Blocks:
+	; INCBIN "maps/Pokecenter_League.ablk"
 
 Colosseum_Blocks:
 	INCBIN "maps/Colosseum.ablk"

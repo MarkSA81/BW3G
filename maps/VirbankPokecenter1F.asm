@@ -1,6 +1,9 @@
 	const_def 2 ; object constants
 	const VIRBANKPOKECENTER_NURSE
 	const VIRBANKPOKECENTER_CLERK
+	const VIRBANKPOKECENTER_TRADE_RECEPTIONIST
+	const VIRBANKPOKECENTER_BATTLE_RECEPTIONIST
+	const VIRBANKPOKECENTER_LINK_RECEPTIONIST
 	const VIRBANKPOKECENTER_LASS
 	const VIRBANKPOKECENTER_GYM_GUY
 	const VIRBANKPOKECENTER_ROUGHNECK
@@ -15,6 +18,21 @@ VirbankPokecenterNurseScript:
 
 VirbankPokecenterClerkScript:
 	jumpstd scalingmart
+
+VirbankTradeLinkReceptionistScript:
+	farjump LinkReceptionistScript_Trade
+	
+VirbankBattleLinkReceptionistScript:
+	farjump LinkReceptionistScript_Battle
+	
+VirbankTimeCapsuleLinkReceptionistScript:
+	farjump LinkReceptionistScript_TimeCapsule
+	
+VirbankLinkRecordSign:
+	refreshscreen
+	special DisplayLinkRecord
+	closetext
+	end
 
 VirbankPokecenterLassScript:
 	jumptextfaceplayer VirbankPokecenterLassText
@@ -100,16 +118,20 @@ VirbankPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4,  9, VIRBANK_CITY, 1
-	warp_event  5,  9, VIRBANK_CITY, 1
+	warp_event  4, 15, VIRBANK_CITY, 1
+	warp_event  5, 15, VIRBANK_CITY, 1
 
 	db 0 ; coord events
 
-	db 0 ; bg events
+	db 1 ; bg events
+	bg_event  9,  3, BGEVENT_READ, VirbankLinkRecordSign
 
-	db 5 ; object events
-	object_event  4,  2, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterNurseScript, -1
-	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterClerkScript, -1
-	object_event  1,  3, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterLassScript, -1
-	object_event  1,  7, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VirbankGymGuyScript, -1
-	object_event  8,  4, SPRITE_ROUGHNECK, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterRoughneckScript, -1
+	db 8 ; object events
+	object_event  4,  8, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterNurseScript, -1
+	object_event  8, 13, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterClerkScript, -1
+	object_event  2,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankTradeLinkReceptionistScript, -1
+	object_event  4,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankBattleLinkReceptionistScript, -1
+	object_event  6,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, VirbankTimeCapsuleLinkReceptionistScript, -1
+	object_event  0,  9, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterLassScript, -1
+	object_event  2, 12, SPRITE_GYM_GUY, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, VirbankGymGuyScript, -1
+	object_event  8, 11, SPRITE_ROUGHNECK, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, VirbankPokecenterRoughneckScript, -1

@@ -1,6 +1,9 @@
 	const_def 2 ; object constants
 	const DRIFTVEILPOKECENTER_NURSE
 	const DRIFTVEILPOKECENTER_CLERK
+	const DRIFTVEILPOKECENTER_TRADE_RECEPTIONIST
+	const DRIFTVEILPOKECENTER_BATTLE_RECEPTIONIST
+	const DRIFTVEILPOKECENTER_LINK_RECEPTIONIST
 	const DRIFTVEILPOKECENTER_FISHER
 	const DRIFTVEILPOKECENTER_YOUNGSTER
 	const DRIFTVEILPOKECENTER_COOLTRAINER_F
@@ -15,6 +18,21 @@ DriftveilPokecenterNurseScript:
 
 DriftveilPokecenterClerkScript:
 	jumpstd scalingmart
+
+DriftveilTradeLinkReceptionistScript:
+	farjump LinkReceptionistScript_Trade
+	
+DriftveilBattleLinkReceptionistScript:
+	farjump LinkReceptionistScript_Battle
+	
+DriftveilTimeCapsuleLinkReceptionistScript:
+	farjump LinkReceptionistScript_TimeCapsule
+	
+DriftveilLinkRecordSign:
+	refreshscreen
+	special DisplayLinkRecord
+	closetext
+	end
 
 DriftveilPokecenterFisherScript:
 	faceplayer
@@ -89,16 +107,20 @@ DriftveilPokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4,  9, DRIFTVEIL_CITY, 4
-	warp_event  5,  9, DRIFTVEIL_CITY, 4
+	warp_event  4, 15, DRIFTVEIL_CITY, 4
+	warp_event  5, 15, DRIFTVEIL_CITY, 4
 
 	db 0 ; coord events
 
-	db 0 ; bg events
+	db 1 ; bg events
+	bg_event  9,  3, BGEVENT_READ, DriftveilLinkRecordSign
 
-	db 5 ; object events
-	object_event  4,  2, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterNurseScript, -1
-	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterClerkScript, -1
-	object_event  1,  9, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterFisherScript, -1
-	object_event  1,  3, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterYoungsterScript, -1
-	object_event  8,  4, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterCooltrainerFScript, -1
+	db 8 ; object events
+	object_event  4,  8, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterNurseScript, -1
+	object_event  8, 13, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterClerkScript, -1
+	object_event  2,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DriftveilTradeLinkReceptionistScript, -1
+	object_event  4,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DriftveilBattleLinkReceptionistScript, -1
+	object_event  6,  2, SPRITE_LINK_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DriftveilTimeCapsuleLinkReceptionistScript, -1
+	object_event  2, 13, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterFisherScript, -1
+	object_event  0,  9, SPRITE_YOUNGSTER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterYoungsterScript, -1
+	object_event  8, 11, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WALK_LEFT_RIGHT, 1, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, DriftveilPokecenterCooltrainerFScript, -1
