@@ -92,13 +92,11 @@ DriftveilPokecenter1F_Blocks:
 MistraltonPokecenter1F_Blocks:
 OpelucidPokecenter1F_Blocks:
 IcirrusPokecenter1F_Blocks:
-VictoryRoadPokecenter1F_Blocks:
-PkmnLeaguePokecenter1F_Blocks:
 	INCBIN "maps/Pokecenter_new.ablk"
 	
-; VictoryRoadPokecenter1F_Blocks:
-; PkmnLeaguePokecenter1F_Blocks:
-	; INCBIN "maps/Pokecenter_League.ablk"
+VictoryRoadPokecenter1F_Blocks:
+PkmnLeaguePokecenter1F_Blocks:
+	INCBIN "maps/Pokecenter_League.ablk"
 
 Colosseum_Blocks:
 	INCBIN "maps/Colosseum.ablk"

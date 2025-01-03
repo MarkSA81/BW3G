@@ -46,16 +46,16 @@ PkmnLeaguePokecenter1F_MapEvents:
 	db 0, 0 ; filler
 
 	db 2 ; warp events
-	warp_event  4,  9, PKMN_LEAGUE_ENTRANCE, 4
-	warp_event  5,  9, PKMN_LEAGUE_ENTRANCE, 4
+	warp_event  4, 11, PKMN_LEAGUE_ENTRANCE, 4
+	warp_event  5, 11, PKMN_LEAGUE_ENTRANCE, 4
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 4 ; object events
-	object_event  4,  2, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterNurseScript, -1
-	object_event  8,  7, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterClerkScript, -1
-	object_event  1,  7, SPRITE_RANGER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterRangerMScript, -1
-	object_event  8,  4, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterCooltrainerFScript, -1
+	object_event  4,  4, SPRITE_NURSE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterNurseScript, -1
+	object_event  8,  9, SPRITE_CLERK, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterClerkScript, -1
+	object_event  1,  9, SPRITE_RANGER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterRangerMScript, -1
+	object_event  8,  6, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, PkmnLeaguePokecenterCooltrainerFScript, -1
 	
