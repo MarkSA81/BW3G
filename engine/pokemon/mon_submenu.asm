@@ -419,18 +419,6 @@ Can_Use_Sweet_Scent:
 	and a
 	jr z, .yes
 
-; Step 3: Check if TM is in bag
-	ld a, TM_SWEET_SCENT
-	ld [wCurItem], a
-	ld hl, wNumItems
-	call CheckItem
-	ret nc ; .fail, tm not in bag
-
-; Step 4: Check if mon can learn Move via TM/HM/Move tutor
-	ld a, SWEET_SCENT
-	call CheckMonCanLearn_TM_HM
-	jr c, .yes
-
 ; Step 5: Check if mon can learn move via LVL-UP
 	ld a, SWEET_SCENT
 	call CheckLvlUpMoves
