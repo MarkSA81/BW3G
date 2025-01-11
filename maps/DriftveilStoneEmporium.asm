@@ -249,7 +249,7 @@ MoveTutorYellowScript:
 	loadmenu YellowMoveMenuHeader
 	verticalmenu
 	closewindow
-	ifequal 1, .LowKick
+	ifequal 1, .LowSweep
 	ifequal 2, .SuperFang
 	ifequal 3, .HyperVoice
 	ifequal 4, .EarthPower
@@ -257,10 +257,10 @@ MoveTutorYellowScript:
 	ifequal 6, .DrainPunch
 	jump MoveTutorRefusedScript
 	
-.LowKick:
+.LowSweep:
 	checkitem YELLOW_SHARD
 	iffalse MoveTutorNotEnoughScript
-	writebyte LOW_KICK
+	writebyte LOW_SWEEP
 	scall MoveTutorStartTeachScript
 	ifnotequal FALSE, .done
 	takeitem YELLOW_SHARD
