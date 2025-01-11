@@ -2,7 +2,6 @@ INCLUDE "engine/gfx/sgb_layouts.asm"
 
 SHINY_SPC_VAL EQU 14
 
-
 CheckShininess:
 ; Check if a mon is shiny by DVs at bc.
 ; Return carry if shiny.
