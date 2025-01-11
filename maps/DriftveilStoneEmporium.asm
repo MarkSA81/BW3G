@@ -374,7 +374,7 @@ YellowMoveMenuHeader:
 .MenuData:
 	db STATICMENU_CURSOR ; flags
 	db 7 ; items
-	db "LOW KICK     1@"
+	db "LOW SWEEP     1@"
 	db "SUPER FANG   2@"
 	db "HYPER VOICE  3@"
 	db "EARTH POWER  4@"
