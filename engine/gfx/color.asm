@@ -1,6 +1,6 @@
 INCLUDE "engine/gfx/sgb_layouts.asm"
 
-SHINY_SPD_VAL EQU 14
+SHINY_SPC_VAL EQU 14
 
 
 CheckShininess:
