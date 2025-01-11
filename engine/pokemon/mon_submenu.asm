@@ -405,7 +405,7 @@ CanUseFly:
 
 Can_Use_Sweet_Scent:
 ; Step 1: Location check
-	farcall CanEncounterWildMon ; CanUseSweetScent instead for older versions of pokecrystal
+	farcall CanUseSweetScent
 	ret nc
 	farcall GetMapEncounterRate
 	ld a, b
