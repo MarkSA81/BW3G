@@ -364,7 +364,7 @@ MonSubMenu_GetNextEvoAttackByte:
 
 CanUseFly:
 ; Step 1: Badge Check
-	ld de, ENGINE_STORMBADGE
+	ld de, ENGINE_TOXICBADGE
 	ld b, CHECK_FLAG
 	farcall EngineFlagAction
 	ld a, c
