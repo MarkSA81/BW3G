@@ -318,7 +318,7 @@ CheckLvlUpMoves:
 	add hl, bc
 	ld a, BANK(EvosAttacksPointers)
 	ld b, a
-	call GetHalfFarWord
+	call GetFarHalfWord
 	ld a, b
 	call GetFarByte
 	inc hl
