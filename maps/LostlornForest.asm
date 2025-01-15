@@ -582,8 +582,8 @@ LostlornForest_MapEvents:
 	coord_event 10, 36, SCENE_LOSTLORN_INFER, LostlornForestInferScript
 
 	db 7 ; bg events
-	bg_event 37,  7, BGEVENT_READ, LostlornForestSign
-	bg_event 15, 53, BGEVENT_READ, LostlornR16Sign
+	bg_event 39,  9, BGEVENT_READ, LostlornForestSign
+	bg_event 17, 53, BGEVENT_READ, LostlornR16Sign
 	bg_event  0,  4, BGEVENT_ITEM, LostlornEther2
 	bg_event 15,  8, BGEVENT_ITEM, LostlornSuperPotion2
 	bg_event 28, 12, BGEVENT_ITEM, LostlornBigMushroom
