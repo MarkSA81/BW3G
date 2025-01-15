@@ -669,9 +669,37 @@ StartTrainerBattle_LoadPokeBallGraphics:
 	cp INFER_SAGE
 	jr z, .load_plasma_pals
 	cp GENESIS
-	jr z, .load_plasma_pals	
+	jr z, .load_plasma_pals
+	ld hl, .leaderpals
+	cp MARLON
+	jr z, .load_leader_pals
+	cp SHAUNTAL
+	jr z, .load_leader_pals
+	cp BURGH
+	jr z, .load_leader_pals
+	cp ROXIE
+	jr z, .load_leader_pals
+	; cp CHEREN
+	; jr z, .load_leader_pals
+	; cp CILAN
+	; jr z, .load_leader_pals
+	; cp SKYLA
+	; jr z, .load_leader_pals
+	; cp DRAYDEN
+	; jr z, .load_leader_pals
+	; cp MARSHAL
+	; jr z, .load_leader_pals ;ret z
+	; cp COLRESS
+	; jr z, .load_leader_pals ;ret z
+	; cp ELESA
+	; jr z, .load_leader_pals ;ret z
+	; cp GRIMSLEY
+	; jr z, .load_leader_pals ;ret z
+	; cp JUNIPER
+	; jr z, .load_leader_pals ;ret z
 	ld hl, .daypals
 .load_plasma_pals
+.load_leader_pals
 	ld a, [wTimeOfDayPal]
 	maskbits NUM_DAYTIMES
 	cp DARKNESS_F
@@ -730,6 +758,9 @@ INCLUDE "gfx/overworld/trainer_battle_nite.pal"
 
 .plasmapals:
 INCLUDE "gfx/overworld/plasma_battle.pal"
+
+.leaderpals:
+INCLUDE "gfx/overworld/leader_battle.pal"
 
 .loadpokeballgfx
 	ld de, PlasmaTransition
@@ -812,12 +843,12 @@ opt b.X ; . = 0, X = 1
 	bigdw %X.....XX..XX...X
 	bigdw %X.....XX...XX..X
 	bigdw %XXXXXXXXXXXXXXXX
-	bigdw %XX.X..XX...XX.XX
-	bigdw %.X..X.XX..XX..X.
-	bigdw %.X...XXXXXX...X.
-	bigdw %.XX...XXX....XX.
-	bigdw %..X...XX.X...X..
-	bigdw %..XX.XXX..X.XX..
+	bigdw %XXXX..XX...XX.XX
+	bigdw %.X.XX.XX..XX..X.
+	bigdw %.X..XXXXXXX...X.
+	bigdw %.XX...XXXX...XX.
+	bigdw %..X...XX.XX..X..
+	bigdw %..XX.XXX..XXXX..
 	bigdw %...XXXXXXXXXX...
 	bigdw %....XXXX..XX....
 	bigdw %.....XXX.XX.....
@@ -828,21 +859,21 @@ popo
 GymLeaderTransition:
 pusho
 opt b.X ; . = 0, X = 1
-	bigdw %.....XX......XX.
-	bigdw %...XXXXXX.XXXXX.
-	bigdw %..XXX..XXXXXXX..
-	bigdw %.XX......X..XX..
-	bigdw %.XX..XX.X..XX...
-	bigdw %XX..X..X...XX...
-	bigdw %XX..X..X..XX....
-	bigdw %.XXX.XX...XX....
-	bigdw %.XX......XX.....
-	bigdw %..XXX....XX.....
-	bigdw %...XXXX.XX......
-	bigdw %.....XX.XX......
+	bigdw %....XXXX.....XXX
+	bigdw %..XXXXXXXX.XXX.X
+	bigdw %.XXX....XXXX..XX
+	bigdw %.XX....XXXX..XX.
+	bigdw %XX...XXXX....XX.
+	bigdw %XX..X..X....XX..
+	bigdw %XX..X..X....XX..
+	bigdw %XX.XXXX....XX...
+	bigdw %.XXXX......XX...
+	bigdw %.XXX......XX....
+	bigdw %..XXXXX...XX....
+	bigdw %....XXX..XX.....
+	bigdw %......X.XXX.....
+	bigdw %......X.XX......
 	bigdw %......XXX.......
-	bigdw %......XXX.......
-	bigdw %......XX........
 	bigdw %......XX........
 popo
 
