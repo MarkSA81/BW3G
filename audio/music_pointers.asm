@@ -93,3 +93,5 @@ Music:
 	dba Music_CynthiaEncounter
 	dba Music_BattleCynthia
 	dba Music_BattleVsRegis
+	dba Music_BattleTowerTheme
+	dba Music_BattleTowerLobby
