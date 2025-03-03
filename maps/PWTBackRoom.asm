@@ -74,7 +74,7 @@ PWTBackRoom_MapScripts:
 	waitsfx
 	pause 30
 	special FadeInQuickly
-	playmusic MUSIC_R_4
+	playmusic MUSIC_BATTLE_TOWER_LOBBY
 	pause 15
 	moveobject PWTBACKROOM_INFER, 3, 1
 	appear PWTBACKROOM_INFER
@@ -137,7 +137,7 @@ PWTBackRoom_MapScripts:
 	waitsfx
 	pause 30
 	special FadeInQuickly
-	playmusic MUSIC_R_4
+	playmusic MUSIC_BATTLE_TOWER_LOBBY
 	pause 15
 	moveobject PWTBACKROOM_JUNIPER, 3, 1
 	appear PWTBACKROOM_JUNIPER
@@ -183,7 +183,7 @@ PWTBackRoom_MapScripts:
 	waitsfx
 	pause 30
 	special FadeInQuickly
-	playmusic MUSIC_R_4
+	playmusic MUSIC_BATTLE_TOWER_LOBBY
 	pause 15
 	moveobject PWTBACKROOM_VIO, 3, 1
 	appear PWTBACKROOM_VIO
@@ -246,7 +246,7 @@ PWTBackRoom_MapScripts:
 	waitsfx
 	pause 30
 	special FadeInQuickly
-	playmusic MUSIC_R_4
+	playmusic MUSIC_BATTLE_TOWER_LOBBY
 	pause 15
 	moveobject PWTBACKROOM_VIO, 3, 1
 	appear PWTBACKROOM_VIO
