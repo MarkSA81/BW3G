@@ -294,7 +294,7 @@ HumilauCity_MapEvents:
 	db 12 ; object events
 	object_event  8, 34, SPRITE_LASS, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HumilauCityCooltrainerFTextScript, -1
 	object_event 10, 33, SPRITE_COOLTRAINER_M, SPRITEMOVEDATA_WANDER, 3, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauCityCooltrainerMTextScript, -1
-	object_event 17, 16, SPRITE_FISHER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, HumilauCityFisherTextScript, -1
+	object_event 17, 16, SPRITE_FISHER, SPRITEMOVEDATA_STANDING_RIGHT, 2, 2, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, HumilauCityFisherTextScript, -1
 	object_event 17,  9, SPRITE_LASS, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, HumilauCityLassTextScript, -1
 	object_event 11,  2, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 4, 1, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, HumilauCityYoungsterTextScript, -1
 	object_event 24,  8, SPRITE_TEACHER, SPRITEMOVEDATA_WANDER, 1, 3, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, HumilauCityTeacherTextScript, -1

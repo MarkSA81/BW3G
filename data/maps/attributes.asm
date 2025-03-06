@@ -17,15 +17,15 @@ CURRENT_MAP_HEIGHT = \2_HEIGHT
 ENDM
 
 	
-	map_attributes HumilauCity, HUMILAU_CITY, $35, WEST | EAST
+	map_attributes HumilauCity, HUMILAU_CITY, $35, SOUTH | WEST
+	connection south, Rt21, R_21, 2
 	connection west, R22, R_22, -2
-	connection east, Rt21, R_21, 10
 	
 	map_attributes R22, R_22, $35, EAST
 	connection east, HumilauCity, HUMILAU_CITY, 2
 	
-	map_attributes Rt21, R_21, $35, WEST
-	connection west, HumilauCity, HUMILAU_CITY, -10
+	map_attributes Rt21, R_21, $35, NORTH
+	connection north, HumilauCity, HUMILAU_CITY, -2
 	
 	map_attributes Rt13, R_13, $0E, WEST
 	connection west, LacunosaTown, LACUNOSA_TOWN, -3
