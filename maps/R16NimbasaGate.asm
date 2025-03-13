@@ -31,15 +31,15 @@ Rt16NimbasaGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  0,  4, NIMBASA_CITY, 1
-	warp_event  0,  5, NIMBASA_CITY, 2
-	warp_event  9,  4, R_16, 3
-	warp_event  9,  5, R_16, 4
+	warp_event  1,  6, NIMBASA_CITY, 1
+	warp_event  1,  7, NIMBASA_CITY, 2
+	warp_event 12,  6, R_16, 3
+	warp_event 12,  7, R_16, 4
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Rt16NimbasaGateOfficerScript, -1
-	object_event  1,  2, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt16NimbasaGateCooltrainerFScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, Rt16NimbasaGateOfficerScript, -1
+	object_event  3,  5, SPRITE_COOLTRAINER_F, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt16NimbasaGateCooltrainerFScript, -1

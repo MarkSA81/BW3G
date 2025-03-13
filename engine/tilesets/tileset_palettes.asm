@@ -58,6 +58,8 @@ LoadSpecialMapPalette:
 	jp z, .champions_room
 	cp TILESET_PORT
 	jp z, .port
+	cp TILESET_GATE
+	jp z, .gate
 	cp TILESET_PLAYERS_HOUSE
 	jp z, .players_house
 	cp TILESET_PLAYERS_ROOM
@@ -71,6 +73,11 @@ LoadSpecialMapPalette:
 
 .pokecenter
 	call LoadPokecenterPalette
+	scf
+	ret
+
+.gate
+	call LoadGatePalette
 	scf
 	ret
 
@@ -1133,6 +1140,17 @@ LoadTwistNitePalette:
 	
 TwistNitePalette:
 INCLUDE "gfx/tilesets/twist_mountain_nite.pal"
+
+LoadGatePalette:
+	ld a, BANK(wBGPals1)
+	ld de, wBGPals1
+	ld hl, GatePalette
+	ld bc, 8 palettes
+	call FarCopyWRAM
+	ret
+	
+GatePalette:
+INCLUDE "gfx/tilesets/gate.pal"
 
 LoadPlayersHousePalette:
 	ld a, BANK(wBGPals1)

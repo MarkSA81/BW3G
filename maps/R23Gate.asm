@@ -71,17 +71,20 @@ Rt23Gate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  0,  4, R_23_EAST, 4
-	warp_event  0,  5, R_23_EAST, 5
-	warp_event  9,  4, R_23_EAST, 2
-	warp_event  9,  5, R_23_EAST, 3
+	warp_event  1,  6, R_23_EAST, 4
+	warp_event  1,  7, R_23_EAST, 5
+	warp_event 12,  6, R_23_EAST, 2
+	warp_event 12,  7, R_23_EAST, 3
 
-	db 2 ; coord events
-	coord_event  5,  4, SCENE_DEFAULT, R23GateBadgeScript
-	coord_event  5,  5, SCENE_DEFAULT, R23GateBadgeScript
+	db 5 ; coord events
+	coord_event 10,  5, SCENE_DEFAULT, R23GateBadgeScript
+	coord_event 10,  6, SCENE_DEFAULT, R23GateBadgeScript
+	coord_event 10,  7, SCENE_DEFAULT, R23GateBadgeScript
+	coord_event 10,  8, SCENE_DEFAULT, R23GateBadgeScript
+	coord_event 10,  9, SCENE_DEFAULT, R23GateBadgeScript
 
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, R23GateOfficerScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, R23GateOfficerScript, -1
 	

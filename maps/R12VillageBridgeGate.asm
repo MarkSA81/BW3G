@@ -60,17 +60,20 @@ Rt12VillageBridgeGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  9,  4, R_12, 1
-	warp_event  9,  5, R_12, 2
-	warp_event  0,  4, VILLAGE_BRIDGE, 1
-	warp_event  0,  5, VILLAGE_BRIDGE, 2
+	warp_event 12,  6, R_12, 1
+	warp_event 12,  7, R_12, 2
+	warp_event  1,  6, VILLAGE_BRIDGE, 1
+	warp_event  1,  7, VILLAGE_BRIDGE, 2
 
-	db 2 ; coord events
-	coord_event  5,  4, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
-	coord_event  5,  5, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
+	db 5 ; coord events
+	coord_event 10,  5, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
+	coord_event 10,  6, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
+	coord_event 10,  7, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
+	coord_event 10,  8, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
+	coord_event 10,  9, SCENE_DEFAULT, R12VillageBridgeGateBridgeOutScript
 
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, R12VillageBridgeGateOfficerScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, R12VillageBridgeGateOfficerScript, -1
 	

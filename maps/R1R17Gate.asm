@@ -22,14 +22,14 @@ Rt1Rt17Gate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  0,  4, R_17, 1
-	warp_event  0,  5, R_17, 2
-	warp_event  9,  4, R_1, 1
-	warp_event  9,  5, R_1, 2
+	warp_event  1,  6, R_17, 1
+	warp_event  1,  7, R_17, 2
+	warp_event 12,  6, R_1, 1
+	warp_event 12,  7, R_1, 2
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, R1R17GateOfficerScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, R1R17GateOfficerScript, -1

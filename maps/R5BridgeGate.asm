@@ -88,17 +88,20 @@ Rt5BridgeGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  9,  4, R_5, 1
-	warp_event  9,  5, R_5, 2
-	warp_event  0,  4, DRIFTVEIL_DRAWBRIDGE, 3
-	warp_event  0,  5, DRIFTVEIL_DRAWBRIDGE, 4
+	warp_event 12,  6, R_5, 1
+	warp_event 12,  7, R_5, 2
+	warp_event  1,  6, DRIFTVEIL_DRAWBRIDGE, 3
+	warp_event  1,  7, DRIFTVEIL_DRAWBRIDGE, 4
 
-	db 2 ; coord events
-	coord_event  5,  4, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
-	coord_event  5,  5, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
+	db 5 ; coord events
+	coord_event 10,  5, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
+	coord_event 10,  6, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
+	coord_event 10,  7, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
+	coord_event 10,  8, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
+	coord_event 10,  9, SCENE_DEFAULT, Rt5BridgeGateBadgeScript
 
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  5,  2, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt5BridgeGateOfficerScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt5BridgeGateOfficerScript, -1
 	

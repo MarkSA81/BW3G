@@ -127,11 +127,11 @@ ENDM
 	map_const R_12, 14, 10
 	map_const LACUNOSA_HOUSE, 4, 4 
 	map_const LACUNOSA_HOUSE_2, 4, 4 
-	map_const R_12_VILLAGE_BRIDGE_GATE, 5, 4
+	map_const R_12_VILLAGE_BRIDGE_GATE, 7, 5
 	
 	newgroup
 	
-	map_const R_13_UNDELLA_GATE, 5,  4 
+	map_const R_13_UNDELLA_GATE, 5, 4 
 	map_const UNDELLA_TOWN, 22, 14
 	map_const UNDELLA_POKECENTER_1F, 5, 8 
 	map_const UNDELLA_OLD_ROD_HOUSE, 4, 4 
@@ -164,11 +164,11 @@ ENDM
 	map_const NIMBASA_SUBWAY, 10, 9
 	map_const NIMBASA_PARK_OUTSIDE, 27, 10
 	map_const R_16, 18, 15
-	map_const R_16_LOSTLORN_GATE, 5, 4
-	map_const R_16_NIMBASA_GATE, 5, 4
+	map_const R_16_LOSTLORN_GATE, 7, 5
+	map_const R_16_NIMBASA_GATE, 7, 5
 	map_const R_5, 20, 11
-	map_const R_5_NIMBASA_GATE, 5, 4
-	map_const R_5_BRIDGE_GATE, 5, 4
+	map_const R_5_NIMBASA_GATE, 7, 5
+	map_const R_5_BRIDGE_GATE, 7, 5
 	map_const R_5_TRUCK, 4, 3
 	
 	newgroup
@@ -231,7 +231,7 @@ ENDM
 	map_const VIRBANK_POKECENTER_1F, 5, 8
 	map_const VIRBANK_HOUSE, 4, 4
 	map_const GAME_CORNER, 10, 7
-	map_const R_20_VIRBANK_GATE, 5, 4
+	map_const R_20_VIRBANK_GATE, 7, 5
 	map_const VIRBANK_STAT_EXP_HOUSE, 4, 4
 	map_const VIRBANK_GYM, 7, 16
 	map_const VIRBANK_PORT, 5, 4
@@ -248,7 +248,7 @@ ENDM
 	map_const NACRENE_HOUSE, 4, 4
 	map_const NACRENE_CAFE, 4, 4
 	map_const NACRENE_MUSEUM, 5, 6
-	map_const R_3_NACRENE_GATE, 5, 4
+	map_const R_3_NACRENE_GATE, 7, 5
 	
 	newgroup
 	map_const R_3, 22, 20
@@ -259,7 +259,7 @@ ENDM
 	map_const STRIATON_LAB, 4, 4
 	map_const STRIATON_GYM, 7, 9
 	map_const R_2, 23, 20
-	map_const R_2_ACCUMULA_GATE, 5, 4
+	map_const R_2_ACCUMULA_GATE, 7, 5
 	
 	newgroup
 	map_const ACCUMULA_TOWN, 15, 12
@@ -273,7 +273,7 @@ ENDM
 	map_const NUVEMA_LAB, 7, 6
 
 	newgroup
-	map_const R_1_R_17_GATE, 5, 4
+	map_const R_1_R_17_GATE, 7, 5
 	map_const R_17, 23, 19
 	map_const R_18, 24, 19
 	map_const R_18_HOUSE, 4, 4
@@ -291,7 +291,7 @@ ENDM
 	map_const PWT_DRIFTVEIL_GATE, 5, 4
 	map_const DRIFTVEIL_POKECENTER_1F, 5, 8
 	map_const DRIFTVEIL_FOSSIL_HOUSE, 4, 4
-	map_const DRIFTVEIL_BRIDGE_GATE, 5, 4
+	map_const DRIFTVEIL_BRIDGE_GATE, 7, 5
 	map_const DRIFTVEIL_SHELTER, 5, 6
 	map_const DRIFTVEIL_DRAWBRIDGE, 21, 8
 	map_const DRIFTVEIL_STONE_EMPORIUM, 5, 6
@@ -319,9 +319,9 @@ ENDM
 	newgroup
 	map_const R_11, 22, 12
 	map_const R_11_TRUCK, 4, 3
-	map_const R_11_OPELUCID_GATE, 5, 4
+	map_const R_11_OPELUCID_GATE, 7, 5
 	map_const OPELUCID_CITY, 28, 17
-	map_const R_9_OPELUCID_GATE, 5, 4
+	map_const R_9_OPELUCID_GATE, 7, 5
 	map_const OPELUCID_POKECENTER_1F, 5, 8
 	map_const OPELUCID_BATTLE_HOUSE, 5, 4
 	map_const OPELUCID_SUPER_ROD_HOUSE, 4, 4 
@@ -334,7 +334,7 @@ ENDM
 	map_const SHOPPING_MALL_NINE, 9, 14
 	map_const MEMBERS_ROOM, 7, 4
 	map_const VILLAGE_BRIDGE, 34, 19
-	map_const R_11_VILLAGE_BRIDGE_GATE, 5, 4
+	map_const R_11_VILLAGE_BRIDGE_GATE, 7, 5
 	
 	newgroup
 	map_const TUBELINE_BRIDGE, 9, 7
@@ -352,7 +352,7 @@ ENDM
 	newgroup
 	map_const R_23_EAST, 17, 26
 	map_const R_23_WEST, 33, 12
-	map_const R_23_GATE, 5, 4
+	map_const R_23_GATE, 7, 5
 	map_const R_23_HOUSE, 4, 4
 	map_const VICTORY_ROAD_ENTRANCE_SOUTH_RIGHT, 14, 8
 	map_const VICTORY_ROAD_ENTRANCE_SOUTH_LEFT, 14, 8
