@@ -80,17 +80,17 @@ LentimasLostlornGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, LENTIMAS_OUTSKIRTS, 3
-	warp_event  5,  0, LENTIMAS_OUTSKIRTS, 4
-	warp_event  4, 15, LOSTLORN_FOREST, 1
-	warp_event  5, 15, LOSTLORN_FOREST, 1
+	warp_event  3,  3, LENTIMAS_OUTSKIRTS, 3
+	warp_event  4,  3, LENTIMAS_OUTSKIRTS, 4
+	warp_event  3, 14, LOSTLORN_FOREST, 1
+	warp_event  4, 14, LOSTLORN_FOREST, 1
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 3 ; object events
-	object_event  9,  4, SPRITE_SOCIALITE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateSocialiteScript, -1
-	object_event  9,  5, SPRITE_YANMA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateYanmaScript, -1
-	object_event  3,  9, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateLassScript, -1
+	object_event  7,  8, SPRITE_SOCIALITE, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateSocialiteScript, -1
+	object_event  7,  9, SPRITE_YANMA, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateYanmaScript, -1
+	object_event  2,  6, SPRITE_LASS, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, LentimasLostlornGateLassScript, -1
 	

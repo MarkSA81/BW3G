@@ -59,16 +59,16 @@ Rt4CasteliaGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, R_4, 4
-	warp_event  5,  0, R_4, 5
-	warp_event  4,  7, CASTELIA_CITY_NORTH, 1
-	warp_event  5,  7, CASTELIA_CITY_NORTH, 1
+	warp_event  3,  3, R_4, 4
+	warp_event  4,  3, R_4, 5
+	warp_event  3, 14, CASTELIA_CITY_NORTH, 1
+	warp_event  4, 14, CASTELIA_CITY_NORTH, 1
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateOfficerScript, -1
-	object_event  6,  3, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateAideScript, -1
+	object_event  7, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateOfficerScript, -1
+	object_event  2,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateAideScript, -1
 	

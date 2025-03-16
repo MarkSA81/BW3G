@@ -41,15 +41,15 @@ Rt19AspertiaGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, R_19, 1
-	warp_event  5,  0, R_19, 2
-	warp_event  4,  7, ASPERTIA_CITY, 5
-	warp_event  5,  7, ASPERTIA_CITY, 5
+	warp_event  3,  3, R_19, 1
+	warp_event  4,  3, R_19, 2
+	warp_event  3, 14, ASPERTIA_CITY, 5
+	warp_event  4, 14, ASPERTIA_CITY, 5
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, Rt19AspertiaGateOfficerScript, -1
-	object_event  6,  4, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Rt19AspertiaGateYoungsterScript, -1
+	object_event  7, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, Rt19AspertiaGateOfficerScript, -1
+	object_event  5,  6, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WALK_UP_DOWN, 0, 1, -1, -1, PAL_NPC_GREEN, OBJECTTYPE_SCRIPT, 0, Rt19AspertiaGateYoungsterScript, -1

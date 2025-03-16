@@ -39,15 +39,15 @@ Rt4DesertGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, DESERT_RESORT, 1
-	warp_event  5,  0, DESERT_RESORT, 2
-	warp_event  4,  7, R_4, 2
-	warp_event  5,  7, R_4, 2
+	warp_event  3,  3, DESERT_RESORT, 1
+	warp_event  4,  3, DESERT_RESORT, 2
+	warp_event  3, 14, R_4, 2
+	warp_event  4, 14, R_4, 2
 
 	db 0 ; coord events
 
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  0,  4, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4DesertGateOfficerScript, -1
-	object_event  7,  5, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, R4DesertGateGrampsScript, -1
+	object_event  7, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4DesertGateOfficerScript, -1
+	object_event  5,  7, SPRITE_GRAMPS, SPRITEMOVEDATA_WANDER, 1, 2, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, R4DesertGateGrampsScript, -1

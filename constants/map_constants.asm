@@ -131,7 +131,7 @@ ENDM
 	
 	newgroup
 	
-	map_const R_13_UNDELLA_GATE, 5, 4 
+	map_const R_13_UNDELLA_GATE, 4, 8
 	map_const UNDELLA_TOWN, 22, 14
 	map_const UNDELLA_POKECENTER_1F, 5, 8 
 	map_const UNDELLA_OLD_ROD_HOUSE, 4, 4 
@@ -175,9 +175,9 @@ ENDM
 	
 	map_const R_4, 23, 30
 	map_const R_4_HOUSE, 4, 4 
-	map_const R_4_CASTELIA_GATE, 5, 4
+	map_const R_4_CASTELIA_GATE, 4, 8
 	map_const DESERT_RESORT, 30, 23
-	map_const R_4_DESERT_GATE, 5, 4
+	map_const R_4_DESERT_GATE, 4, 8
 	
 	newgroup
 	
@@ -212,7 +212,7 @@ ENDM
 	map_const ASPERTIA_MOM_HOUSE, 7, 4 
 	map_const ASPERTIA_MOVE_DELETER_HOUSE, 4, 4 
 	map_const ASPERTIA_GYM, 5, 11
-	map_const R_19_ASPERTIA_GATE, 5, 4 
+	map_const R_19_ASPERTIA_GATE, 4, 8
 	
 	newgroup
 	map_const FLOCCESY_TOWN, 13, 17
@@ -288,7 +288,7 @@ ENDM
 	
 	newgroup
 	map_const DRIFTVEIL_CITY, 26, 20
-	map_const PWT_DRIFTVEIL_GATE, 5, 4
+	map_const PWT_DRIFTVEIL_GATE, 4, 8
 	map_const DRIFTVEIL_POKECENTER_1F, 5, 8
 	map_const DRIFTVEIL_FOSSIL_HOUSE, 4, 4
 	map_const DRIFTVEIL_BRIDGE_GATE, 7, 5

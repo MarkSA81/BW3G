@@ -53,20 +53,21 @@ CasteliaBridgeGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 6 ; warp events
-	warp_event  2,  7, CASTELIA_CITY_SOUTH, 11
-	warp_event  3,  7, CASTELIA_CITY_SOUTH, 11
-	warp_event  9,  2, CASTELIA_BRIDGE_GATE, 4
-	warp_event  2, 15, CASTELIA_BRIDGE_GATE, 3
-	warp_event  7, 14, SKYARROW_BRIDGE, 1
-	warp_event  7, 15, SKYARROW_BRIDGE, 2
+	warp_event  1,  6, CASTELIA_CITY_SOUTH, 11
+	warp_event  1,  7, CASTELIA_CITY_SOUTH, 11
+	warp_event 12,  6, SKYARROW_BRIDGE, 1
+	warp_event 12,  7, SKYARROW_BRIDGE, 2
 
-	db 2 ; coord events
-	coord_event  6,  3, SCENE_DEFAULT, CasteliaBridgeGateStopScript
-	coord_event  6,  4, SCENE_DEFAULT, CasteliaBridgeGateStopScript
+	db 5 ; coord events
+	coord_event 10,  5, SCENE_DEFAULT, CasteliaBridgeGateStopScript
+	coord_event 10,  6, SCENE_DEFAULT, CasteliaBridgeGateStopScript
+	coord_event 10,  7, SCENE_DEFAULT, CasteliaBridgeGateStopScript
+	coord_event 10,  8, SCENE_DEFAULT, CasteliaBridgeGateStopScript
+	coord_event 10,  9, SCENE_DEFAULT, CasteliaBridgeGateStopScript
 
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  6,  1, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CasteliaBridgeGateOfficerScript, -1
-	object_event  0,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, CasteliaBridgeGateOfficerScript, -1
+	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, CasteliaBridgeGateOfficerScript, -1
+	object_event  5,  8, SPRITE_OFFICER, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, CasteliaBridgeGateOfficerScript, -1
 	

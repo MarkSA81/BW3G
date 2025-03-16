@@ -47,6 +47,8 @@ Rt4DesertGate_Blocks:
 Rt4CasteliaGate_Blocks:
 Rt19AspertiaGate_Blocks:
 PWTDriftveilGate_Blocks:
+LentimasLostlornGate_Blocks:
+PinwheelBridgeGate_Blocks:
 	INCBIN "maps/NorthSouthGate.ablk"
 
 PlayersHouse1F_Blocks:
@@ -66,6 +68,7 @@ DriftveilBridgeGate_Blocks:
 Rt11VillageBridgeGate_Blocks:
 Rt11OpelucidGate_Blocks:
 Rt9OpelucidGate_Blocks:
+CasteliaBridgeGate_Blocks:
 	INCBIN "maps/EastWestGate.ablk"
 
 
@@ -258,8 +261,8 @@ CasteliaMassage_Blocks:
 CasteliaGameFreak_Blocks:
 	INCBIN "maps/CasteliaGameFreak.ablk"
 	
-CasteliaBridgeGate_Blocks:
-	INCBIN "maps/CasteliaBridgeGate.ablk"
+; CasteliaBridgeGate_Blocks:
+	; INCBIN "maps/CasteliaBridgeGate.ablk"
 
 NimbasaSubway_Blocks:
 	INCBIN "maps/GoldenrodMagnetTrainStation.ablk"
@@ -336,8 +339,8 @@ CasteliaPort_Blocks:
 PinwheelForest_Blocks:
 	INCBIN "maps/PinwheelForest.ablk"
 
-PinwheelBridgeGate_Blocks:
-	INCBIN "maps/PinwheelBridgeGate.ablk"
+; PinwheelBridgeGate_Blocks:
+	; INCBIN "maps/PinwheelBridgeGate.ablk"
 
 SkyarrowBridge_Blocks:
 	INCBIN "maps/SkyarrowBridge.ablk"
@@ -708,8 +711,8 @@ AldersHouse_Blocks:
 MembersRoom_Blocks:
 	INCBIN "maps/MembersRoom.ablk"
 	
-LentimasLostlornGate_Blocks:
-	INCBIN "maps/LentimasLostlornGate.ablk"
+; LentimasLostlornGate_Blocks:
+	; INCBIN "maps/LentimasLostlornGate.ablk"
 	
 NuvemaMomHouse_Blocks:
 	INCBIN "maps/NuvemaMomHouse.ablk"
