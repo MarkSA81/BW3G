@@ -28,8 +28,8 @@
 	tilecoll WALL, WALL, WALL, WALL ; 1b
 	tilecoll WALL, WALL, WALL, WALL ; 1c
 	tilecoll WALL, WALL, WALL, WALL ; 1d
-	tilecoll WALL, WARP_CARPET_UP, FLOOR, FLOOR ; 1e
-	tilecoll WARP_CARPET_UP, WALL, FLOOR, FLOOR ; 1f
+	tilecoll WALL, WALL, WALL, WARP_CARPET_UP ; 1e
+	tilecoll WALL, WALL, WARP_CARPET_UP, WALL ; 1f
 	tilecoll WALL, WALL, WALL, WALL ; 20
 	tilecoll FLOOR, FLOOR, WALL, FLOOR ; 21
 	tilecoll WALL, FLOOR, WALL, FLOOR ; 22

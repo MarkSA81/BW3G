@@ -52,7 +52,7 @@ CasteliaBridgeGateOfficerText:
 CasteliaBridgeGate_MapEvents:
 	db 0, 0 ; filler
 
-	db 6 ; warp events
+	db 4 ; warp events
 	warp_event  1,  6, CASTELIA_CITY_SOUTH, 11
 	warp_event  1,  7, CASTELIA_CITY_SOUTH, 11
 	warp_event 12,  6, SKYARROW_BRIDGE, 1

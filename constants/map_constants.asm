@@ -148,7 +148,7 @@ ENDM
 	map_const LENTIMAS_POKECENTER_1F, 5, 8
 	map_const LENTIMAS_HOUSE, 4, 4 
 	map_const LENTIMAS_GYM, 8, 10 
-	map_const LENTIMAS_LOSTLORN_GATE, 5,  8
+	map_const LENTIMAS_LOSTLORN_GATE, 4,  8
 	map_const LENTIMAS_AIRPORT, 5, 4
 	
 	newgroup
@@ -187,14 +187,14 @@ ENDM
 	map_const CASTELIA_POKECENTER_1F, 5, 8
 	map_const CASTELIA_BIKE_SHOP, 4,  4
 	map_const CASTELIA_MASSAGE, 4,  4
-	map_const CASTELIA_GAME_FREAK, 4,  5
-	map_const CASTELIA_BRIDGE_GATE, 6,  9
+	map_const CASTELIA_GAME_FREAK, 4, 5
+	map_const CASTELIA_BRIDGE_GATE, 7, 5
 	map_const BATTLE_COMPANY_1F, 4, 4
 	map_const BATTLE_COMPANY_2F, 4, 4
 	map_const CASTELIA_GYM, 7, 22
 	map_const CASTELIA_PORT, 5, 4
 	map_const FERRY_LEFT, 9, 2
-	map_const PINWHEEL_BRIDGE_GATE, 5, 9
+	map_const PINWHEEL_BRIDGE_GATE, 4, 8
 	map_const SKYARROW_BRIDGE, 26, 5
 	map_const CASTELIA_TRADE_HOUSE_1, 4, 4
 	map_const CASTELIA_TRADE_HOUSE_2, 4, 4
