@@ -51,18 +51,18 @@ Rt4NimbasaGate_MapEvents:
 	db 0, 0 ; filler
 
 	db 4 ; warp events
-	warp_event  4,  0, NIMBASA_CITY, 9
-	warp_event  5,  0, NIMBASA_CITY, 10
-	warp_event  4, 21, R_4, 1
-	warp_event  5, 21, R_4, 1
+	warp_event  3,  3, NIMBASA_CITY, 9
+	warp_event  4,  3, NIMBASA_CITY, 10
+	warp_event  3, 20, R_4, 1
+	warp_event  4, 20, R_4, 1
 
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event 0, 15, BGEVENT_ITEM, R4NimbasaGateRareCandy
+	bg_event  0, 13, BGEVENT_ITEM, R4NimbasaGateRareCandy
 
 	db 3 ; object events
-	object_event  5,  5, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, R4NimbasaGatePokefanMTextScript, -1
-	object_event  6, 16, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, R4NimbasaGateYoungsterTextScript, -1
-	object_event  9, 11, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, R4NimbasaGateMerchantScript, -1
+	object_event  5,  6, SPRITE_POKEFAN_M, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, R4NimbasaGatePokefanMTextScript, -1
+	object_event  2, 17, SPRITE_YOUNGSTER, SPRITEMOVEDATA_WANDER, 2, 2, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, R4NimbasaGateYoungsterTextScript, -1
+	object_event  7, 13, SPRITE_GRANNY, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, R4NimbasaGateMerchantScript, -1
 	

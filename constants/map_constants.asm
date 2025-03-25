@@ -160,7 +160,7 @@ ENDM
 	map_const NIMBASA_POKECENTER_1F, 5, 8
 	map_const NIMBASA_HOUSE, 4, 4 
 	map_const NIMBASA_NAME_RATER, 4, 4 
-	map_const R_4_NIMBASA_GATE, 5, 11
+	map_const R_4_NIMBASA_GATE, 4, 11 ; Join Avenue
 	map_const NIMBASA_SUBWAY, 10, 9
 	map_const NIMBASA_PARK_OUTSIDE, 27, 10
 	map_const R_16, 18, 15
