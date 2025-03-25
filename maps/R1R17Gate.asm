@@ -32,4 +32,4 @@ Rt1Rt17Gate_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, R1R17GateOfficerScript, -1
+	object_event 10,  3, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE_D, OBJECTTYPE_SCRIPT, 0, R1R17GateOfficerScript, -1

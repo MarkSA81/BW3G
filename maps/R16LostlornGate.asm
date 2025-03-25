@@ -41,6 +41,6 @@ Rt16LostlornGate_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event 10,  3, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt16LostlornGateOfficerScript, -1
+	object_event 10,  3, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Rt16LostlornGateOfficerScript, -1
 	object_event  4,  5, SPRITE_RANGER_M, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, Rt16LostlornGateRangerMScript, -1
 	

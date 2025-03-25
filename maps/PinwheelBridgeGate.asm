@@ -32,5 +32,5 @@ PinwheelBridgeGate_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event  7, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, PinwheelBridgeGateOfficerScript, -1
+	object_event  7, 11, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, PinwheelBridgeGateOfficerScript, -1
 	

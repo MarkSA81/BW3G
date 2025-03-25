@@ -69,6 +69,6 @@ Rt4CasteliaGate_MapEvents:
 	db 0 ; bg events
 
 	db 2 ; object events
-	object_event  7, 11, SPRITE_OFFICER, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateOfficerScript, -1
+	object_event  7, 11, SPRITE_RECEPTIONIST, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, PAL_NPC_RED_D, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateOfficerScript, -1
 	object_event  2,  6, SPRITE_SCIENTIST, SPRITEMOVEDATA_WANDER, 1, 1, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, R4CasteliaGateAideScript, -1
 	
