@@ -43,7 +43,6 @@ ParasolLadyPic:     INCBIN "gfx/trainers/parasol_lady.2bpp.lz"
 LadyPic:            INCBIN "gfx/trainers/lady.2bpp.lz"
 RichBoyPic:         INCBIN "gfx/trainers/rich_boy.2bpp.lz"
 PkmnRangerMPic:     INCBIN "gfx/trainers/pkmn_ranger_m.2bpp.lz"
-PkmnRangerFPic:     INCBIN "gfx/trainers/pkmn_ranger_f.2bpp.lz"
 SmasherPic:         INCBIN "gfx/trainers/smasher.2bpp.lz"
 MusicianPic:        INCBIN "gfx/trainers/musician.2bpp.lz"
 MaidPic:            INCBIN "gfx/trainers/maid.2bpp.lz"
@@ -116,6 +115,7 @@ TympoleFrontpic:   INCBIN "gfx/pokemon/tympole/front.animated.2bpp.lz"
 PalpitoadFrontpic:   INCBIN "gfx/pokemon/palpitoad/front.animated.2bpp.lz"
 SeismitoadFrontpic:   INCBIN "gfx/pokemon/seismitoad/front.animated.2bpp.lz"
 ZubatFrontpic:   INCBIN "gfx/pokemon/zubat/front.animated.2bpp.lz"
+PkmnRangerFPic:     INCBIN "gfx/trainers/pkmn_ranger_f.2bpp.lz"
 
 
 SECTION "Pics 4", ROMX
