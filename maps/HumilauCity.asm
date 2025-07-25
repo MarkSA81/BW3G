@@ -116,7 +116,7 @@ HumilauMarineTubeSign:
 	jumptext HumilauMarineTubeSignText
 	
 HumilauCityShellBell:
-	itemball SHELL_BELL
+	itemball RARE_CANDY
 
 HumilauCity_DontLeaveMovement:
 	step RIGHT
