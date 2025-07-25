@@ -179,7 +179,7 @@ JohtoWaterWildMons:
 	map_id VILLAGE_BRIDGE
 	db 4 percent ; encounter rate
 	db 30, DUCKLETT
-	db 35, CORSOLA
+	db 35, SWANNA
 	db 30, DUCKLETT
 	
 	map_id R_11
