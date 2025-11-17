@@ -1,6 +1,6 @@
 	db EMBOAR ; 063
 
-	db 110, 123,  65,  65, 100,  65
+	db 110, 125,  65,  65, 85,  85
 	;   hp  atk  def  spd  sat  sdf
 
 	db FIRE, FIGHTING ; type
