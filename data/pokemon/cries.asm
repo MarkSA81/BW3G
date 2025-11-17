@@ -195,7 +195,6 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $034,  $120 ; DURANT
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
-	mon_cry CRY_GROWLITHE,   $2ff,  $1d4 ; KINGAMBIT
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; THROH
@@ -203,6 +202,7 @@ PokemonCries::
 	mon_cry CRY_DIGLETT,    -$44d,  $1c0 ; TROPIUS
 	mon_cry CRY_GROWLITHE,   $1d0,  $0b0 ; PAWNIARD
 	mon_cry CRY_GROWLITHE,   $2fc,  $1c4 ; BISHARP
+	mon_cry CRY_GROWLITHE,   $2ff,  $1d4 ; KINGAMBIT
 	mon_cry CRY_AMPHAROS,    $8a9,  $180 ; SKARMORY
 	mon_cry CRY_AMPHAROS,    $054,  $0b8 ; MANTYKE
 	mon_cry CRY_MANTINE,    -$0be,  $0f0 ; MANTINE
