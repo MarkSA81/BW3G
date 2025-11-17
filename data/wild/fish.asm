@@ -209,9 +209,9 @@ TimeFishGroups:
 	;  day              nite
 	db STARYU,    20,  STARYU,     20 ; 0
 	db STARYU,    40,  STARYU,     40 ; 1
-	db CORSOLA,   20,  CORSOLA,   20 ; 2
-	db CORSOLA,   40,  CORSOLA,   40 ; 3
-	db BASCULIN,    20,  BASCULIN,    20 ; 4
+	db BASCULIN,   20,  BASCULIN,   20 ; 2
+	db BASCULIN,   40,  BASCULIN,   40 ; 3
+	db STUNFISK,    20,  STUNFISK,    20 ; 4
 	db STUNFISK,    40,  STUNFISK,    40 ; 5
 	db PALPITOAD,    20,  PALPITOAD,    20 ; 6
 	db PALPITOAD,    40,  PALPITOAD,    40 ; 7
