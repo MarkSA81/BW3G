@@ -222,7 +222,6 @@ AlphabeticalPokedexOrder:
 	db TIRTOUGA
 	db TOXICROAK
 	db TRANQUILL
-	db TRAPINCH
 	db TROPIUS
 	db TRUBBISH
 	db TYMPOLE
