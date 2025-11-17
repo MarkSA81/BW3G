@@ -1,6 +1,6 @@
 	db AZURILL ; 183
 
-	db  50,  40,  40,  20,  20,  40
+	db  50,  28,  40,  20,  20,  40
 	;   hp  atk  def  spd  sat  sdf
 
 	db NORMAL, FAIRY ; type
