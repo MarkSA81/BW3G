@@ -151,9 +151,9 @@ PokemonCries::
 	mon_cry CRY_LAPRAS,     -$209,  $1ca ; KROOKODILE
 	mon_cry CRY_AMPHAROS,    $1c8,  $190 ; SKORUPI
 	mon_cry CRY_CLEFFA,     -$33e,  $200 ; DRAPION
-	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; TRAPINCH
-	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; VIBRAVA
-	mon_cry CRY_KRABBY,      $cda,  $132 ; FLYGON
+	mon_cry CRY_WEEDLE,      $021,  $070 ; GIBLE*
+	mon_cry CRY_METAPOD,     $0a3,  $070 ; GABITE*
+	mon_cry CRY_SQUIRTLE,    $e2f,  $150 ; GARCHOMP*
 	mon_cry CRY_KARRABLAST,  $04b,  $0a4 ; SCRAGGY
 	mon_cry CRY_KARRABLAST, -$0a7,  $147 ; SCRAFTY
 	mon_cry CRY_PSYDUCK,    -$13a,  $0d0 ; NUMEL
@@ -195,7 +195,7 @@ PokemonCries::
 	mon_cry CRY_VENONAT,     $034,  $120 ; DURANT
 	mon_cry CRY_GOLEM,       $0e6,  $15d ; KOFFING
 	mon_cry CRY_GOLEM,       $0ff,  $17f ; WEEZING
-	mon_cry CRY_MAGCARGO,    $0a1,  $0e8 ; CORSOLA
+	mon_cry CRY_GROWLITHE,   $2ff,  $1d4 ; KINGAMBIT
 	mon_cry CRY_PIDGEOTTO,   $000,  $100 ; PINSIR
 	mon_cry CRY_AMPHAROS,    $035,  $0e0 ; HERACROSS
 	mon_cry CRY_LAPRAS,     -$1d9,  $0ca ; THROH
