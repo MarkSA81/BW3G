@@ -148,9 +148,9 @@ MonMenuIcons:
 	db ICON_SKORUPI    ; 91
 	db ICON_DRAPION    ; 92
 	db ICON_TRAPINCH   ; 93
-	db ICON_VIBRAVA    ; 94
-	db ICON_FLYGON     ; 95
-	db ICON_SCRAGGY    ; 96
+	db ICON_GIBLE      ; 94
+	db ICON_GABITE     ; 95
+	db ICON_GARCHOMP   ; 96
 	db ICON_SCRAFTY    ; 97
 	db ICON_NUMEL      ; 98
 	db ICON_CAMERUPT   ; 99
@@ -191,14 +191,14 @@ MonMenuIcons:
 	db ICON_DURANT     ; bc
 	db ICON_KOFFING    ; bd
 	db ICON_WEEZING    ; be
-	db ICON_CORSOLA    ; bf
-	db ICON_PINSIR     ; c0
-	db ICON_HERACROSS  ; c1
-	db ICON_THROH      ; c2
-	db ICON_SAWK       ; c3
-	db ICON_TROPIUS    ; c4
-	db ICON_PAWNIARD   ; c5
-	db ICON_BISHARP    ; c6
+	db ICON_PINSIR     ; bf
+	db ICON_HERACROSS  ; c0
+	db ICON_THROH      ; c1
+	db ICON_SAWK       ; c2
+	db ICON_TROPIUS    ; c3
+	db ICON_PAWNIARD   ; c4
+	db ICON_BISHARP    ; c5
+	db ICON_KINGAMBIT  ; c6
 	db ICON_SKARMORY   ; c7
 	db ICON_MANTYKE    ; c8
 	db ICON_MANTINE    ; c9
