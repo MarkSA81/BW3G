@@ -145,9 +145,9 @@ Pokered_MonIndices:
 	db KROOKODILE ; 90
 	db SKORUPI    ; 91
 	db DRAPION    ; 92
-	db TRAPINCH   ; 93
-	db VIBRAVA    ; 94
-	db FLYGON     ; 95
+	db GIBLE      ; 93
+	db GABITE     ; 94
+	db GARCHOMP   ; 95
 	db SCRAGGY    ; 96
 	db SCRAFTY    ; 97
 	db NUMEL      ; 98
@@ -189,7 +189,7 @@ Pokered_MonIndices:
 	db DURANT     ; bc
 	db KOFFING    ; bd
 	db WEEZING    ; be
-	db CORSOLA    ; bf
+	db KINGAMBIT  ; bf
 	db PINSIR     ; c0
 	db HERACROSS  ; c1
 	db THROH      ; c2
