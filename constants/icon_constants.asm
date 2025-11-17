@@ -147,9 +147,9 @@
 	const ICON_KROOKODILE ; 90
 	const ICON_SKORUPI    ; 91
 	const ICON_DRAPION    ; 92
-	const ICON_TRAPINCH   ; 93
-	const ICON_VIBRAVA    ; 94
-	const ICON_FLYGON     ; 95
+	const ICON_GIBLE      ; 93
+	const ICON_GABITE     ; 94
+	const ICON_GARCHOMP   ; 95
 	const ICON_SCRAGGY    ; 96
 	const ICON_SCRAFTY    ; 97
 	const ICON_NUMEL      ; 98
@@ -191,14 +191,14 @@
 	const ICON_DURANT     ; bc
 	const ICON_KOFFING    ; bd
 	const ICON_WEEZING    ; be
-	const ICON_CORSOLA    ; bf
-	const ICON_PINSIR     ; c0
-	const ICON_HERACROSS  ; c1
-	const ICON_THROH      ; c2
-	const ICON_SAWK       ; c3
-	const ICON_TROPIUS    ; c4
-	const ICON_PAWNIARD   ; c5
-	const ICON_BISHARP    ; c6
+	const ICON_PINSIR     ; bf
+	const ICON_HERACROSS  ; c0
+	const ICON_THROH      ; c1
+	const ICON_SAWK       ; c2
+	const ICON_TROPIUS    ; c3
+	const ICON_PAWNIARD   ; c4
+	const ICON_BISHARP    ; c5
+	const ICON_KINGAMBIT  ; c6
 	const ICON_SKARMORY   ; c7
 	const ICON_MANTYKE    ; c8
 	const ICON_MANTINE    ; c9
