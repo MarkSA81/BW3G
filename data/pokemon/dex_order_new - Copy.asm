@@ -191,14 +191,14 @@ NewPokedexOrder:
 	db DURANT     ; bc
 	db KOFFING    ; bd
 	db WEEZING    ; be
-	db CORSOLA    ; bf
-	db PINSIR     ; c0
-	db HERACROSS  ; c1
-	db THROH      ; c2
-	db SAWK       ; c3
-	db TROPIUS    ; c4
-	db PAWNIARD   ; c5
-	db BISHARP    ; c6
+	db PINSIR     ; bf
+	db HERACROSS  ; c0
+	db THROH      ; c1
+	db SAWK       ; c2
+	db TROPIUS    ; c3
+	db PAWNIARD   ; c4
+	db BISHARP    ; c5
+	db KINGAMBIT  ; c6
 	db SKARMORY   ; c7
 	db MANTYKE    ; c8
 	db MANTINE    ; c9
