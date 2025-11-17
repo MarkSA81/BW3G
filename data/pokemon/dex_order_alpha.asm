@@ -34,7 +34,6 @@ AlphabeticalPokedexOrder:
 	db COFAGRIGUS
 	db CONKELDURR
 	db CORPHISH
-	db CORSOLA
 	db COTTONEE
 	db CRAWDAUNT
 	db CROAGUNK
@@ -74,7 +73,6 @@ AlphabeticalPokedexOrder:
 	db FERROTHORN
 	db FLAAFFY
 	db FLAREON
-	db FLYGON
 	db FOONGUS
 	db FRAXURE
 	db FRILLISH
@@ -86,6 +84,9 @@ AlphabeticalPokedexOrder:
 	db GASTLY
 	db GENESECT
 	db GENGAR
+	db GIBLE
+	db GABITE
+	db GARCHOMP
 	db GIGALITH
 	db GLACEON
 	db GLALIE
@@ -114,6 +115,7 @@ AlphabeticalPokedexOrder:
 	db JOLTEON
 	db JOLTIK
 	db KARRABLAST
+	db KINGAMBIT
 	db KINGDRA
 	db KIRLIA
 	db KLANG
@@ -233,7 +235,6 @@ AlphabeticalPokedexOrder:
 	db VANILLUXE
 	db VAPOREON
 	db VENIPEDE
-	db VIBRAVA
 	db VOLCARONA
 	db VULLABY
 	db VULPIX
