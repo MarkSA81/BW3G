@@ -105,8 +105,8 @@
 	const CRUSTLE    ; 54
 	const DRIFLOON   ; 55
 	const DRIFBLIM   ; 56
-	const MEDITITE   ; 57
-	const MEDICHAM   ; 58
+	const MIENFOO    ; 57
+	const MIENSHAO   ; 58
 	const HOUNDOUR   ; 59
 	const HOUNDOOM   ; 5a
 	const YAMASK     ; 5b
@@ -165,9 +165,9 @@
 	const KROOKODILE ; 90
 	const SKORUPI    ; 91
 	const DRAPION    ; 92
-	const TRAPINCH   ; 93
-	const VIBRAVA    ; 94
-	const FLYGON     ; 95
+	const GIBLE      ; 93
+	const GABITE     ; 94
+	const GARCHOMP   ; 95
 	const SCRAGGY    ; 96
 	const SCRAFTY    ; 97
 	const NUMEL      ; 98
@@ -209,14 +209,14 @@
 	const DURANT     ; bc
 	const KOFFING    ; bd
 	const WEEZING    ; be
-	const CORSOLA    ; bf
-	const PINSIR     ; c0
-	const HERACROSS  ; c1
-	const THROH      ; c2
-	const SAWK       ; c3
-	const TROPIUS    ; c4
-	const PAWNIARD   ; c5
-	const BISHARP    ; c6
+	const PINSIR     ; bf
+	const HERACROSS  ; c0
+	const THROH      ; c1
+	const SAWK       ; c2
+	const TROPIUS    ; c3
+	const PAWNIARD   ; c4
+	const BISHARP    ; c5
+	const KINGAMBIT  ; c6
 	const SKARMORY   ; c7
 	const MANTYKE    ; c8
 	const MANTINE    ; c9
