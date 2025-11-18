@@ -86,7 +86,7 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE ; DRIFBLIM
 	db NO_MOVE
-	db NO_MOVE ; MEDICHAM
+	db NO_MOVE ; MIENSHAO
 	db NO_MOVE
 	db NO_MOVE ; HOUNDOOM
 	db NO_MOVE
@@ -146,8 +146,8 @@ EvolutionMoves::
 	db NO_MOVE
 	db NO_MOVE ; DRAPION
 	db NO_MOVE
-	db DRAGONBREATH
-	db DRAGON_CLAW ; FLYGON
+	db NO_MOVE
+	db NO_MOVE ; GARCHOMP
 	db NO_MOVE
 	db NO_MOVE ; SCRAFTY
 	db NO_MOVE
@@ -189,7 +189,6 @@ EvolutionMoves::
 	db NO_MOVE ; DURANT
 	db NO_MOVE
 	db NO_MOVE ; WEEZING
-	db NO_MOVE ; CORSOLA
 	db NO_MOVE ; PINSIR
 	db NO_MOVE ; HERACROSS
 	db NO_MOVE ; THROH
@@ -197,6 +196,7 @@ EvolutionMoves::
 	db NO_MOVE ; TROPIUS
 	db NO_MOVE
 	db NO_MOVE ; BISHARP
+	db NO_MOVE
 	db NO_MOVE ; SKARMORY
 	db NO_MOVE
 	db PSYBEAM ; MANTINE
