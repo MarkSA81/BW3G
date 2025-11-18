@@ -88,8 +88,8 @@ EvosAttacksPointers::
 	dw CrustleEvosAttacks
 	dw DrifloonEvosAttacks
 	dw DrifblimEvosAttacks
-	dw MedititeEvosAttacks
-	dw MedichamEvosAttacks
+	dw MienfooEvosAttacks
+	dw MienshaoEvosAttacks
 	dw HoundourEvosAttacks
 	dw HoundoomEvosAttacks
 	dw YamaskEvosAttacks
@@ -148,9 +148,9 @@ EvosAttacksPointers::
 	dw KrookodileEvosAttacks
 	dw SkorupiEvosAttacks
 	dw DrapionEvosAttacks
-	dw TrapinchEvosAttacks
-	dw VibravaEvosAttacks
-	dw FlygonEvosAttacks
+	dw GibleEvosAttacks
+	dw GabiteEvosAttacks
+	dw GarchompEvosAttacks
 	dw ScraggyEvosAttacks
 	dw ScraftyEvosAttacks
 	dw NumelEvosAttacks
@@ -192,7 +192,6 @@ EvosAttacksPointers::
 	dw DurantEvosAttacks
 	dw KoffingEvosAttacks
 	dw WeezingEvosAttacks
-	dw CorsolaEvosAttacks
 	dw PinsirEvosAttacks
 	dw HeracrossEvosAttacks
 	dw ThrohEvosAttacks
@@ -200,6 +199,7 @@ EvosAttacksPointers::
 	dw TropiusEvosAttacks
 	dw PawniardEvosAttacks
 	dw BisharpEvosAttacks
+	dw KingambitEvosAttacks
 	dw SkarmoryEvosAttacks
 	dw MantykeEvosAttacks
 	dw MantineEvosAttacks
