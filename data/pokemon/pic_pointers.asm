@@ -174,10 +174,10 @@ PokemonPicPointers::
 	dba DrifloonBackpic
 	dba DrifblimFrontpic
 	dba DrifblimBackpic
-	dba MedititeFrontpic
-	dba MedititeBackpic
-	dba MedichamFrontpic
-	dba MedichamBackpic
+	dba MienfooFrontpic
+	dba MienfooBackpic
+	dba MienshaoFrontpic
+	dba MienshaoBackpic
 	dba HoundourFrontpic
 	dba HoundourBackpic
 	dba HoundoomFrontpic
@@ -294,12 +294,12 @@ PokemonPicPointers::
 	dba SkorupiBackpic
 	dba DrapionFrontpic
 	dba DrapionBackpic
-	dba TrapinchFrontpic
-	dba TrapinchBackpic
-	dba VibravaFrontpic
-	dba VibravaBackpic
-	dba FlygonFrontpic
-	dba FlygonBackpic
+	dba GibleFrontpic
+	dba GibleBackpic
+	dba GabiteFrontpic
+	dba GabiteBackpic
+	dba GarchompFrontpic
+	dba GarchompBackpic
 	dba ScraggyFrontpic
 	dba ScraggyBackpic
 	dba ScraftyFrontpic
@@ -382,8 +382,6 @@ PokemonPicPointers::
 	dba KoffingBackpic
 	dba WeezingFrontpic
 	dba WeezingBackpic
-	dba CorsolaFrontpic
-	dba CorsolaBackpic
 	dba PinsirFrontpic
 	dba PinsirBackpic
 	dba HeracrossFrontpic
@@ -398,6 +396,8 @@ PokemonPicPointers::
 	dba PawniardBackpic
 	dba BisharpFrontpic
 	dba BisharpBackpic
+	dba KingambitFrontpic
+	dba KingambitBackpic
 	dba SkarmoryFrontpic
 	dba SkarmoryBackpic
 	dba MantykeFrontpic
