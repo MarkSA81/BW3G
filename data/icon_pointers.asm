@@ -87,8 +87,8 @@ IconPointers:
 	dw CrustleIcon
 	dw DrifloonIcon
 	dw DrifblimIcon
-	dw MedititeIcon
-	dw MedichamIcon
+	dw MienfooIcon
+	dw MienshaoIcon
 	dw HoundourIcon
 	dw HoundoomIcon
 	dw YamaskIcon
@@ -147,9 +147,9 @@ IconPointers:
 	dw KrookodileIcon
 	dw SkorupiIcon
 	dw DrapionIcon
-	dw TrapinchIcon
-	dw VibravaIcon
-	dw FlygonIcon
+	dw GibleIcon
+	dw GabiteIcon
+	dw GarchompIcon
 	dw ScraggyIcon
 	dw ScraftyIcon
 	dw NumelIcon
@@ -191,7 +191,6 @@ IconPointers:
 	dw DurantIcon
 	dw KoffingIcon
 	dw WeezingIcon
-	dw CorsolaIcon
 	dw PinsirIcon
 	dw HeracrossIcon
 	dw ThrohIcon
@@ -199,6 +198,7 @@ IconPointers:
 	dw TropiusIcon
 	dw PawniardIcon
 	dw BisharpIcon
+	dw KingambitIcon
 	dw SkarmoryIcon
 	dw MantykeIcon
 	dw MantineIcon
