@@ -703,7 +703,7 @@ JohtoGrassWildMons:
 	; morn
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -714,7 +714,7 @@ JohtoGrassWildMons:
 	; day
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -725,7 +725,7 @@ JohtoGrassWildMons:
 	; nite
 	db 18, MARILL
 	db 19, DUCKLETT
-	db 18, MEDITITE
+	db 18, MIENFOO
 	db 18, VULPIX
 	db 17, SWABLU
 	db 19, AUDINO
@@ -738,7 +738,7 @@ JohtoGrassWildMons:
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -749,7 +749,7 @@ JohtoGrassWildMons:
 	db 20, SKORUPI
 	; day
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -760,7 +760,7 @@ JohtoGrassWildMons:
 	db 20, SKORUPI
 	; nite
 	db 19, DUCKLETT
-	db 20, MEDITITE
+	db 20, MIENFOO
 	db 18, SWABLU
 	db 18, VULPIX
 	db 18, CROAGUNK
@@ -1064,7 +1064,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1075,7 +1075,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1086,7 +1086,7 @@ JohtoGrassWildMons:
 	db 29, JIGGLYPUFF
 	db 28, LIEPARD
 	db 28, WATCHOG
-	db 29, MEDITITE
+	db 29, MIENFOO
 	db 27, MUNNA
 	db 28, GOLBAT
 	db 30, LIEPARD
@@ -1892,7 +1892,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -1903,7 +1903,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -1914,7 +1914,7 @@ JohtoGrassWildMons:
 	db 38, LITWICK
 	db 37, BALTOY
 	db 36, GOLETT
-	db 37, MEDITITE
+	db 37, MIENFOO
 	db 36, SNORUNT
 	db 37, HAUNTER
 	db 37, DUOSION
@@ -2543,10 +2543,10 @@ JohtoGrassWildMons:
 	db 50, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 55, CONKELDURR
 	; day
 	db 52, GURDURR
 	db 51, SWOOBAT
@@ -2554,10 +2554,10 @@ JohtoGrassWildMons:
 	db 50, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 55, AGGRON
 	; nite
 	db 52, GURDURR
 	db 51, SWOOBAT
@@ -2565,82 +2565,82 @@ JohtoGrassWildMons:
 	db 50, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 55, CHANDELURE
 
 	map_id VICTORY_ROAD_CAVE_3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
-	db 50, CRUSTLE
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
+	db 51, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 55, MAMOSWINE
 	; day
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
 	db 50, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 55, METAGROSS
 	; nite
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
-	db 50, CRUSTLE
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
+	db 51, CRUSTLE
 	db 51, PILOSWINE
 	db 52, LAMPENT
-	db 48, DEINO
+	db 53, ZWEILOUS
 	db 50, METANG
 	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 64, HYDREIGON
 
 	map_id VICTORY_ROAD_CASTLE_OUTSIDE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
-	db 50, CRUSTLE
-	db 51, PILOSWINE
-	db 52, LAMPENT
-	db 48, DEINO
-	db 50, METANG
-	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
+	db 52, CRUSTLE
+	db 54, MAMOSWINE
+	db 54, CHANDELURE
+	db 54, ZWEILOUS
+	db 55, METAGROSS
+	db 53, COFAGRIGUS
+	db 55, MAMOSWINE
 	; day
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
-	db 50, CRUSTLE
-	db 51, PILOSWINE
-	db 52, LAMPENT
-	db 48, DEINO
-	db 50, METANG
-	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
+	db 52, CRUSTLE
+	db 54, MAMOSWINE
+	db 54, CHANDELURE
+	db 54, ZWEILOUS
+	db 55, METAGROSS
+	db 53, COFAGRIGUS
+	db 55, METAGROSS
 	; nite
-	db 52, GURDURR
-	db 51, SWOOBAT
-	db 52, LAIRON
-	db 50, CRUSTLE
-	db 51, PILOSWINE
-	db 52, LAMPENT
-	db 48, DEINO
-	db 50, METANG
-	db 52, COFAGRIGUS
-	db 55, ZWEILOUS
+	db 53, CONKELDUR
+	db 52, SWOOBAT
+	db 53, AGGRON
+	db 52, CRUSTLE
+	db 54, MAMOSWINE
+	db 54, CHANDELURE
+	db 54, ZWEILOUS
+	db 55, METAGROSS
+	db 53, COFAGRIGUS
+	db 64, HYDREIGON
 
 	map_id VICTORY_ROAD_OUTDOOR_1F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2648,71 +2648,71 @@ JohtoGrassWildMons:
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, HAXORUS
 	; day
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, GARCHOMP
 	; nite
 	db 52, KROKOROK
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, TYRANITAR
 
 	map_id VICTORY_ROAD_OUTDOOR_2F
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 52, KROKOROK
+	db 53, KROOKODILE
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, HAXORUS
 	; day
-	db 52, KROKOROK
+	db 53, KROOKODILE
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, GARCHOMP
 	; nite
-	db 52, KROKOROK
+	db 53, KROOKODILE
 	db 51, GABITE
 	db 52, EXCADRILL
-	db 50, MEDICHAM
+	db 50, MIENSHAO
 	db 51, FERROTHORN
 	db 52, TOXICROAK
 	db 50, PUPITAR
 	db 50, DRIFBLIM
 	db 52, FRAXURE
-	db 55, FRAXURE
+	db 55, TYRANITAR
 
 	map_id VICTORY_ROAD_GROVE
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
@@ -2825,9 +2825,9 @@ JohtoGrassWildMons:
 	map_id TWIST_MOUNTAIN_3F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 58, BOLDORE
-	db 60, VANILLISH
-	db 59, GURDURR
+	db 60, GIGALITH
+	db 61, VANILLUXE
+	db 60, CONKELDUR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
@@ -2836,9 +2836,9 @@ JohtoGrassWildMons:
 	db 63, EXCADRILL
 	db 65, STEELIX
 	; day
-	db 58, BOLDORE
-	db 60, VANILLISH
-	db 59, GURDURR
+	db 60, GIGALITH
+	db 61, VANILLUXE
+	db 60, CONKELDUR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
@@ -2847,9 +2847,9 @@ JohtoGrassWildMons:
 	db 63, EXCADRILL
 	db 65, STEELIX
 	; nite
-	db 58, BOLDORE
-	db 60, VANILLISH
-	db 59, GURDURR
+	db 60, GIGALITH
+	db 61, VANILLUXE
+	db 60, CONKELDUR
 	db 60, BEARTIC
 	db 62, HEATMOR
 	db 62, DURANT
@@ -2861,7 +2861,7 @@ JohtoGrassWildMons:
 	map_id TWIST_MOUNTAIN_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 58, VANILLISH
+	db 60, VANILLISH
 	db 60, BEARTIC
 	db 59, KLANG
 	db 60, MAGNETON
@@ -2870,9 +2870,9 @@ JohtoGrassWildMons:
 	db 60, STEELIX
 	db 62, CRYOGONAL
 	db 63, EXCADRILL
-	db 65, EXCADRILL
+	db 65, MAGNEZONE
 	; day
-	db 58, VANILLISH
+	db 60, VANILLISH
 	db 60, BEARTIC
 	db 59, KLANG
 	db 60, MAGNETON
@@ -2881,17 +2881,17 @@ JohtoGrassWildMons:
 	db 60, STEELIX
 	db 62, CRYOGONAL
 	db 63, EXCADRILL
-	db 65, EXCADRILL
+	db 65, KLINKANG
 	; nite
-	db 58, VANILLISH
+	db 60, VANILLISH
 	db 60, BEARTIC
-	db 59, KLANG
-	db 60, MAGNETON
+	db 60, KLINKANG
+	db 61, MAGNEZONE
 	db 62, HEATMOR
 	db 62, DURANT
 	db 60, STEELIX
 	db 62, CRYOGONAL
 	db 63, EXCADRILL
-	db 65, EXCADRILL
+	db 65, VANILLUXE
 
 	db -1 ; end
