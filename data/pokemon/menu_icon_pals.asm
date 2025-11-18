@@ -91,8 +91,8 @@ MonMenuIconPals:
 	icon_pals GREY,		GREEN ; KINGLER
 	icon_pals PURPLE,	RED ; DRIFLOON
 	icon_pals PURPLE,	RED ; DRIFBLIM
-	icon_pals BLUE,		RED ; MEDITITE
-	icon_pals PINK,		BLUE ; HYPNO
+	icon_pals GREY,		PINK ; MIENFOO
+	icon_pals GREY,		PINK ; MIENSHAO
 	icon_pals RED,		BLUE ; HOUNDOUR
 	icon_pals RED,		BLUE ; HOUNDOOM
 	icon_pals RED,		GREY ; YAMASK
@@ -151,9 +151,9 @@ MonMenuIconPals:
 	icon_pals RED,		BROWN ; FERALIGATR
 	icon_pals PURPLE,	RED ; SKORUPI
 	icon_pals PURPLE,	RED ; DRAPION
-	icon_pals RED,		BLUE ; TRAPINCH
-	icon_pals GREEN,	RED ; VIBRAVA
-	icon_pals GREEN,	TEAL ; FLYGON
+	icon_pals BLUE,		RED ; TRAPINCH
+	icon_pals BLUE, 	RED ; VIBRAVA
+	icon_pals BLUE,	    RED ; FLYGON
 	icon_pals RED,		BROWN ; SCRAGGY
 	icon_pals RED,		BROWN ; PRIMEAPE
 	icon_pals GREEN,	BLUE ; NUMEL
@@ -195,7 +195,6 @@ MonMenuIconPals:
 	icon_pals GREY,		PINK ; DURANT
 	icon_pals PURPLE,	BLUE ; KOFFING
 	icon_pals PURPLE,	BLUE ; WEEZING
-	icon_pals PINK,		BLUE ; CORSOLA
 	icon_pals BROWN,	BLUE ; PINSIR
 	icon_pals BLUE,		PINK ; HERACROSS
 	icon_pals RED,		BROWN ; THROH
@@ -203,6 +202,7 @@ MonMenuIconPals:
 	icon_pals GREEN,	RED ; TROPIUS
 	icon_pals RED,		PURPLE ; PAWNIARD
 	icon_pals RED,		PURPLE ; BISHARP
+	icon_pals RED,		PURPLE ; KINGAMBIT
 	icon_pals RED,		GREY ; SKARMORY
 	icon_pals BLUE,		PURPLE ; MANTYKE
 	icon_pals BLUE,		PURPLE ; MANTINE
