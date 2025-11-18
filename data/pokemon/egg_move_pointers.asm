@@ -85,7 +85,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw DrifloonEggMoves
 	dw NoEggMoves
-	dw MedititeEggMoves
+	dw MienfooEggMoves
 	dw NoEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves
@@ -145,7 +145,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw SkorupiEggMoves
 	dw NoEggMoves
-	dw TrapinchEggMoves
+	dw GibleEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw ScraggyEggMoves
@@ -189,13 +189,13 @@ EggMovePointers::
 	dw DurantEggMoves
 	dw KoffingEggMoves
 	dw NoEggMoves
-	dw CorsolaEggMoves
 	dw PinsirEggMoves
 	dw HeracrossEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw TropiusEggMoves
 	dw PawniardEggMoves
+	dw NoEggMoves
 	dw NoEggMoves
 	dw SkarmoryEggMoves
 	dw MantykeEggMoves
