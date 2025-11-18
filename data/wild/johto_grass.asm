@@ -2861,37 +2861,37 @@ JohtoGrassWildMons:
 	map_id TWIST_MOUNTAIN_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
 	; morn
-	db 60, VANILLISH
+	db 60, VANILLUXE
 	db 60, BEARTIC
-	db 59, KLANG
-	db 60, MAGNETON
-	db 62, HEATMOR
-	db 62, DURANT
-	db 60, STEELIX
-	db 62, CRYOGONAL
-	db 63, EXCADRILL
-	db 65, MAGNEZONE
-	; day
-	db 60, VANILLISH
-	db 60, BEARTIC
-	db 59, KLANG
-	db 60, MAGNETON
-	db 62, HEATMOR
-	db 62, DURANT
-	db 60, STEELIX
-	db 62, CRYOGONAL
-	db 63, EXCADRILL
-	db 65, KLINKANG
-	; nite
-	db 60, VANILLISH
-	db 60, BEARTIC
-	db 60, KLINKANG
+	db 60, KLINKLANG
 	db 61, MAGNEZONE
 	db 62, HEATMOR
 	db 62, DURANT
 	db 60, STEELIX
 	db 62, CRYOGONAL
 	db 63, EXCADRILL
-	db 65, VANILLUXE
+	db 65, EXCADRILL
+	; day
+	db 60, VANILLUXE
+	db 60, BEARTIC
+	db 60, KLINKLANG
+	db 61, MAGNEZONE
+	db 62, HEATMOR
+	db 62, DURANT
+	db 60, STEELIX
+	db 62, CRYOGONAL
+	db 63, EXCADRILL
+	db 65, EXCADRILL
+	; nite
+	db 60, VANILLUXE
+	db 60, BEARTIC
+	db 60, KLINKLANG
+	db 61, MAGNEZONE
+	db 62, HEATMOR
+	db 62, DURANT
+	db 60, STEELIX
+	db 62, CRYOGONAL
+	db 63, EXCADRILL
+	db 65, EXCADRILL
 
 	db -1 ; end
