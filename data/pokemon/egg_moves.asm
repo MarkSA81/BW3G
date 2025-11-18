@@ -276,15 +276,11 @@ DrifloonEggMoves:
 	db HYPNOSIS
 	db -1 ; end
 
-MedititeEggMoves:
-	db BULLET_PUNCH
+MienfooEggMoves:
 	db DRAIN_PUNCH
-	db DYNAMICPUNCH
-	db FIRE_PUNCH
-	db FORESIGHT
-	db ICE_PUNCH
-	db PSYCHO_CUT
-	db THUNDERPUNCH
+	db LOW_KICK
+	db VITAL_THROW
+	db ENDURE
 	db -1 ; end
 
 HoundourEggMoves:
@@ -498,17 +494,18 @@ SkorupiEggMoves:
 	db WHIRLWIND
 	db -1 ; end
 
-TrapinchEggMoves:
-	db BUG_BITE
+GibleEggMoves:
+	db BODY_SLAM
+	db DOUBLE_EDGE
+	db DRAGON_BREATH
+	db IRON_HEAD
+	db IRON_HEAD
+	db MUD_SHOOT
 	db EARTH_POWER
-	db ENDURE
-	db FLAIL
-	db FOCUS_ENERGY
-	db FURY_CUTTER
-	db GUST
-	db MUD_SHOT
-	db QUICK_ATTACK
-	db SIGNAL_BEAM
+	db OUTRAGE
+	db ROCK_TOMB
+	db SCARY_FACE
+	db METAL_CLAW
 	db -1 ; end
 
 ScraggyEggMoves:
