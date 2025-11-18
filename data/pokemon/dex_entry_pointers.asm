@@ -86,8 +86,8 @@ PokedexDataPointerTable:
 	dw CrustlePokedexEntry
 	dw DrifloonPokedexEntry
 	dw DrifblimPokedexEntry
-	dw MedititePokedexEntry
-	dw MedichamPokedexEntry
+	dw MienfooPokedexEntry
+	dw MienshaoPokedexEntry
 	dw HoundourPokedexEntry
 	dw HoundoomPokedexEntry
 	dw YamaskPokedexEntry
@@ -146,9 +146,9 @@ PokedexDataPointerTable:
 	dw KrookodilePokedexEntry
 	dw SkorupiPokedexEntry
 	dw DrapionPokedexEntry
-	dw TrapinchPokedexEntry
-	dw VibravaPokedexEntry
-	dw FlygonPokedexEntry
+	dw GiblePokedexEntry
+	dw GabitePokedexEntry
+	dw GarchompPokedexEntry
 	dw ScraggyPokedexEntry
 	dw ScraftyPokedexEntry
 	dw NumelPokedexEntry
@@ -190,7 +190,6 @@ PokedexDataPointerTable:
 	dw DurantPokedexEntry
 	dw KoffingPokedexEntry
 	dw WeezingPokedexEntry
-	dw CorsolaPokedexEntry
 	dw PinsirPokedexEntry
 	dw HeracrossPokedexEntry
 	dw ThrohPokedexEntry
@@ -198,6 +197,7 @@ PokedexDataPointerTable:
 	dw TropiusPokedexEntry
 	dw PawniardPokedexEntry
 	dw BisharpPokedexEntry
+	dw KingambitaPokedexEntry
 	dw SkarmoryPokedexEntry
 	dw MantykePokedexEntry
 	dw MantinePokedexEntry
