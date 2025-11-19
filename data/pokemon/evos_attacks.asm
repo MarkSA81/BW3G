@@ -1579,7 +1579,7 @@ AggronEvosAttacks:
 	db 0 ; no more level-up moves
 
 OnixEvosAttacks:
-	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, STEELIX
+	db EVOLVE_, METAL_COAT, TR_ANYTIME, STEELIX
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, HARDEN
@@ -1630,7 +1630,7 @@ SteelixEvosAttacks:
 	db 0 ; no more level-up moves
 
 NosepassEvosAttacks:
-	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, PROBOPASS
+	db EVOLVE_, METAL_COAT, TR_ANYTIME, PROBOPASS
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 4, HARDEN
@@ -1777,54 +1777,45 @@ DrifblimEvosAttacks:
 	db 65, HURRICANE ; Phantom Force
 	db 0 ; no more level-up moves
 
-MedititeEvosAttacks:
-	db EVOLVE_LEVEL, 37, MEDICHAM
+MienfooEvosAttacks:
+	db EVOLVE_LEVEL, 50, MIENSHAO
 	db 0 ; no more evolutions
-	db 1, DEFENSE_CURL ; Bide
-	db 4, DOUBLESLAP ; Meditate
-	db 7, CONFUSION
+	db 1, FURY_SWIPES ; Pound
+	db 5, PSYCH_UP; Meditate
 	db 9, PROTECT ; Detect
-	db 12, ENDURE
-	db 15, MACH_PUNCH ; Feint
-	db 17, KARATE_CHOP ; Force Palm
-	db 20, HIDDEN_POWER
-	db 23, CALM_MIND
-	db 25, LOCK_ON ; Mind Reader
-	db 28, HI_JUMP_KICK
-	db 31, PSYCH_UP
-	db 33, SWORDS_DANCE ; Acupressure
-	db 36, ZEN_HEADBUTT ; Power Trick
-	db 39, AURA_SPHERE ; Reversal
-	db 41, RECOVER
-	db 44, COUNTER
+	db 13, DOUBLE_SLAP ; FAKE OUT
+	db 17, DOUBLE_KICK
+	db 21, SWIFT
+	db 25, CALM_MIND
+	db 29, DRAIN_PUNCH
+	db 33, CROSS_POISON
+	db 37, X_SCISSOR
+	db 41, HONE_CLAWS
+	db 45, AURA_SPHERE
+	db 49, ACROBATICS
+	db 50, HIGH_JUMP_KICK
+	db 54, NIGHT_SLASH
+	db 58, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
-MedichamEvosAttacks:
+MienshaoEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, ZEN_HEADBUTT
-	db 1, FIRE_PUNCH
-	db 1, ICE_PUNCH
-	db 1, THUNDERPUNCH
-	db 1, DEFENSE_CURL ; Bide
-	db 1, DOUBLESLAP ; Meditate
-	db 1, CONFUSION
-	db 1, PROTECT ; Detect
-	db 4, DOUBLESLAP ; Meditate
-	db 7, CONFUSION
+	db 1, FURY_SWIPES ; Pound
+	db 5, PSYCH_UP; Meditate
 	db 9, PROTECT ; Detect
-	db 12, ENDURE
-	db 15, MACH_PUNCH ; Feint
-	db 17, KARATE_CHOP ; Force Palm
-	db 20, HIDDEN_POWER
-	db 23, CALM_MIND
-	db 25, LOCK_ON ; Mind Reader
-	db 28, HI_JUMP_KICK
-	db 31, PSYCH_UP
-	db 33, SWORDS_DANCE ; Acupressure
-	db 36, ZEN_HEADBUTT ; Power Trick
-	db 42, AURA_SPHERE ; Reversal
-	db 47, RECOVER
-	db 53, COUNTER
+	db 13, DOUBLE_SLAP ; FAKE OUT
+	db 17, DOUBLE_KICK
+	db 21, SWIFT
+	db 25, CALM_MIND
+	db 29, DRAIN_PUNCH
+	db 33, CROSS_POISON
+	db 37, X_SCISSOR
+	db 41, HONE_CLAWS
+	db 45, AURA_SPHERE
+	db 49, ACROBATICS
+	db 50, HIGH_JUMP_KICK
+	db 55, NIGHT_SLASH
+	db 59, CLOSE_COMBAT
 	db 0 ; no more level-up moves
 
 HoundourEvosAttacks:
@@ -2348,7 +2339,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
-	db EVOLVE_HOLD, METAL_COAT, TR_ANYTIME, MAGNEZONE
+	db EVOLVE_, METAL_COAT, TR_ANYTIME, MAGNEZONE
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, SUPERSONIC
@@ -3936,28 +3927,6 @@ WeezingEvosAttacks:
 	db 57, WILL_O_WISP ; Memento
 	db 0 ; no more level-up moves
 
-CorsolaEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, TACKLE
-	db 1, HARDEN
-	db 4, BUBBLE
-	db 8, RECOVER
-	db 10, BUBBLEBEAM
-	db 13, SAFEGUARD ; Refresh
-	db 17, ANCIENTPOWER
-	db 20, ROCK_TOMB ; Spike Cannon
-	db 23, PROTECT ; Lucky Chant
-	db 27, SCALD ; Brine
-	db 29, IRON_DEFENSE
-	db 31, ROCK_SLIDE ; Rock Blast
-	db 35, ENDURE
-	db 38, RAIN_DANCE ; Aqua Ring
-	db 41, POWER_GEM
-	db 45, MIRROR_COAT
-	db 47, EARTH_POWER
-	db 50, FLAIL
-	db 0 ; no more level-up moves
-
 PinsirEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
@@ -4076,8 +4045,9 @@ PawniardEvosAttacks:
 	db 0 ; no more level-up moves
 
 BisharpEvosAttacks:
+	db EVOLVE_HOLD, KINGS_ROCK, TR_ANYTIME, KINGAMBIT 
 	db 0 ; no more evolutions
-	db 1, METEOR_MASH ; Guillotine
+	db 1, SUCKER_PUNCH ; Guillotine
 	db 1, IRON_HEAD
 	db 1, COUNTER ; Metal Burst
 	db 1, SCRATCH
@@ -4100,6 +4070,33 @@ BisharpEvosAttacks:
 	db 63, SWORDS_DANCE
 	db 71, METEOR_MASH ; Guillotine
 	db 0 ; no more level-up moves
+
+KingambitEvosAttacks:
+	db 0 ; no more evolutions
+	db 1, SUCKER_PUNCH ; Guillotine
+	db 1, IRON_HEAD
+	db 1, COUNTER ; Metal Burst
+	db 1, SCRATCH
+	db 1, LEER
+	db 1, FURY_CUTTER
+	db 1, SWAGGER ; Torment
+	db 6, LEER
+	db 9, FURY_CUTTER
+	db 14, SWAGGER ; Torment
+	db 17, FAINT_ATTACK
+	db 22, SCARY_FACE
+	db 25, METAL_CLAW
+	db 30, SLASH
+	db 33, PSYCHO_CUT ; Assurance
+	db 38, SCREECH ; Metal Sound
+	db 41, BULLET_PUNCH ; Embargo
+	db 46, IRON_DEFENSE
+	db 49, NIGHT_SLASH
+	db 57, IRON_HEAD
+	db 63, SWORDS_DANCE
+	db 71, METEOR_MASH ; Guillotine
+	db 0 ; no more level-up moves
+
 
 SkarmoryEvosAttacks:
 	db 0 ; no more evolutions
