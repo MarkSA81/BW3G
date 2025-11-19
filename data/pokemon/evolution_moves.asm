@@ -147,7 +147,7 @@ EvolutionMoves::
 	db NO_MOVE ; DRAPION
 	db NO_MOVE
 	db NO_MOVE
-	db NO_MOVE ; GARCHOMP
+	db CRUNCH ; GARCHOMP
 	db NO_MOVE
 	db NO_MOVE ; SCRAFTY
 	db NO_MOVE
